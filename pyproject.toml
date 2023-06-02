@@ -2,7 +2,7 @@
 name = "greenscape"
 version = "0.1.0"
 description = ""
-authors = ["Simona Dimitrova <222667@buas.nl>"]
+authors = ["Simona Dimitrova <222667@buas.nl>", "Yuliia Bobrovytska <226038@buas.nl>", "Kacper Janczyk <220646@buas.nl>", "Mátyás Tatár <223073@buas.nl>", "Collin Limoncelli-Buyskes <223661@buas.nl>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
