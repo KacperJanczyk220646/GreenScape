@@ -1,0 +1,1172 @@
+,index,neighborhood,regions,year,livability_score,income,population,working_population,total_job_growth
+0,774,Bavel,Bavel,2014,430,4400,5395,3970,"-7,9%"
+1,102,Bavel,Bavel,2002,260,4400,5395,3970,"-7,9%"
+2,1054,Bavel,Bavel,2019,510,4400,5395,3970,"-7,9%"
+3,382,Bavel,Bavel,2007,300,4400,5395,3970,"-7,9%"
+4,158,Bavel,Bavel,2003,260,4400,5395,3970,"-7,9%"
+5,1110,Bavel,Bavel,2020,530,4400,5395,3970,"-7,9%"
+6,718,Bavel,Bavel,2013,400,4400,5395,3970,"-7,9%"
+7,662,Bavel,Bavel,2012,400,4400,5395,3970,"-7,9%"
+8,1166,Bavel,Bavel,2021,530,4400,5395,3970,"-7,9%"
+9,886,Bavel,Bavel,2016,470,4400,5395,3970,"-7,9%"
+10,326,Bavel,Bavel,2006,290,4400,5395,3970,"-7,9%"
+11,270,Bavel,Bavel,2005,280,4400,5395,3970,"-7,9%"
+12,438,Bavel,Bavel,2008,320,4400,5395,3970,"-7,9%"
+13,606,Bavel,Bavel,2011,390,4400,5395,3970,"-7,9%"
+14,998,Bavel,Bavel,2018,480,4400,5395,3970,"-7,9%"
+15,550,Bavel,Bavel,2010,360,4400,5395,3970,"-7,9%"
+16,46,Bavel,Bavel,2001,250,4400,5395,3970,"-7,9%"
+17,942,Bavel,Bavel,2017,470,4400,5395,3970,"-7,9%"
+18,214,Bavel,Bavel,2004,260,4400,5395,3970,"-7,9%"
+19,830,Bavel,Bavel,2015,450,4400,5395,3970,"-7,9%"
+20,494,Bavel,Bavel,2009,340,4400,5395,3970,"-7,9%"
+21,398,Belcrum,Breda noord,2008,240,2700,4005,3070,10.10%
+22,678,Belcrum,Breda noord,2013,280,2700,4005,3070,10.10%
+23,1014,Belcrum,Breda noord,2019,440,2700,4005,3070,10.10%
+24,902,Belcrum,Breda noord,2017,400,2700,4005,3070,10.10%
+25,454,Belcrum,Breda noord,2009,240,2700,4005,3070,10.10%
+26,734,Belcrum,Breda noord,2014,300,2700,4005,3070,10.10%
+27,1126,Belcrum,Breda noord,2021,490,2700,4005,3070,10.10%
+28,566,Belcrum,Breda noord,2011,250,2700,4005,3070,10.10%
+29,118,Belcrum,Breda noord,2003,160,2700,4005,3070,10.10%
+30,230,Belcrum,Breda noord,2005,190,2700,4005,3070,10.10%
+31,6,Belcrum,Breda noord,2001,150,2700,4005,3070,10.10%
+32,622,Belcrum,Breda noord,2012,260,2700,4005,3070,10.10%
+33,286,Belcrum,Breda noord,2006,190,2700,4005,3070,10.10%
+34,958,Belcrum,Breda noord,2018,400,2700,4005,3070,10.10%
+35,1070,Belcrum,Breda noord,2020,470,2700,4005,3070,10.10%
+36,62,Belcrum,Breda noord,2002,160,2700,4005,3070,10.10%
+37,790,Belcrum,Breda noord,2015,310,2700,4005,3070,10.10%
+38,342,Belcrum,Breda noord,2007,210,2700,4005,3070,10.10%
+39,846,Belcrum,Breda noord,2016,340,2700,4005,3070,10.10%
+40,510,Belcrum,Breda noord,2010,250,2700,4005,3070,10.10%
+41,174,Belcrum,Breda noord,2004,160,2700,4005,3070,10.10%
+42,624,Biesdonk,Breda noord,2012,210,3900,4940,3690,7.40%
+43,904,Biesdonk,Breda noord,2017,270,3900,4940,3690,7.40%
+44,1128,Biesdonk,Breda noord,2021,340,3900,4940,3690,7.40%
+45,456,Biesdonk,Breda noord,2009,190,3900,4940,3690,7.40%
+46,960,Biesdonk,Breda noord,2018,270,3900,4940,3690,7.40%
+47,64,Biesdonk,Breda noord,2002,130,3900,4940,3690,7.40%
+48,512,Biesdonk,Breda noord,2010,190,3900,4940,3690,7.40%
+49,848,Biesdonk,Breda noord,2016,250,3900,4940,3690,7.40%
+50,176,Biesdonk,Breda noord,2004,150,3900,4940,3690,7.40%
+51,232,Biesdonk,Breda noord,2005,140,3900,4940,3690,7.40%
+52,8,Biesdonk,Breda noord,2001,130,3900,4940,3690,7.40%
+53,1072,Biesdonk,Breda noord,2020,320,3900,4940,3690,7.40%
+54,792,Biesdonk,Breda noord,2015,230,3900,4940,3690,7.40%
+55,120,Biesdonk,Breda noord,2003,140,3900,4940,3690,7.40%
+56,288,Biesdonk,Breda noord,2006,150,3900,4940,3690,7.40%
+57,344,Biesdonk,Breda noord,2007,170,3900,4940,3690,7.40%
+58,1016,Biesdonk,Breda noord,2019,300,3900,4940,3690,7.40%
+59,736,Biesdonk,Breda noord,2014,240,3900,4940,3690,7.40%
+60,568,Biesdonk,Breda noord,2011,210,3900,4940,3690,7.40%
+61,680,Biesdonk,Breda noord,2013,210,3900,4940,3690,7.40%
+62,400,Biesdonk,Breda noord,2008,180,3900,4940,3690,7.40%
+63,300,Blauwe Kei,Breda zuid-oost,2006,200,2900,3890,2840,
+64,468,Blauwe Kei,Breda zuid-oost,2009,230,2900,3890,2840,
+65,972,Blauwe Kei,Breda zuid-oost,2018,340,2900,3890,2840,
+66,1028,Blauwe Kei,Breda zuid-oost,2019,380,2900,3890,2840,
+67,132,Blauwe Kei,Breda zuid-oost,2003,170,2900,3890,2840,
+68,244,Blauwe Kei,Breda zuid-oost,2005,180,2900,3890,2840,
+69,524,Blauwe Kei,Breda zuid-oost,2010,230,2900,3890,2840,
+70,1140,Blauwe Kei,Breda zuid-oost,2021,410,2900,3890,2840,
+71,1084,Blauwe Kei,Breda zuid-oost,2020,400,2900,3890,2840,
+72,356,Blauwe Kei,Breda zuid-oost,2007,210,2900,3890,2840,
+73,412,Blauwe Kei,Breda zuid-oost,2008,220,2900,3890,2840,
+74,188,Blauwe Kei,Breda zuid-oost,2004,170,2900,3890,2840,
+75,748,Blauwe Kei,Breda zuid-oost,2014,280,2900,3890,2840,
+76,636,Blauwe Kei,Breda zuid-oost,2012,270,2900,3890,2840,
+77,692,Blauwe Kei,Breda zuid-oost,2013,290,2900,3890,2840,
+78,76,Blauwe Kei,Breda zuid-oost,2002,160,2900,3890,2840,
+79,580,Blauwe Kei,Breda zuid-oost,2011,250,2900,3890,2840,
+80,860,Blauwe Kei,Breda zuid-oost,2016,310,2900,3890,2840,
+81,916,Blauwe Kei,Breda zuid-oost,2017,340,2900,3890,2840,
+82,20,Blauwe Kei,Breda zuid-oost,2001,150,2900,3890,2840,
+83,804,Blauwe Kei,Breda zuid-oost,2015,290,2900,3890,2840,
+84,473,Boeimeer,Breda zuid,2009,330,4500,5795,4200,
+85,1089,Boeimeer,Breda zuid,2020,590,4500,5795,4200,
+86,641,Boeimeer,Breda zuid,2012,430,4500,5795,4200,
+87,809,Boeimeer,Breda zuid,2015,520,4500,5795,4200,
+88,697,Boeimeer,Breda zuid,2013,480,4500,5795,4200,
+89,25,Boeimeer,Breda zuid,2001,190,4500,5795,4200,
+90,137,Boeimeer,Breda zuid,2003,210,4500,5795,4200,
+91,1033,Boeimeer,Breda zuid,2019,580,4500,5795,4200,
+92,865,Boeimeer,Breda zuid,2016,490,4500,5795,4200,
+93,977,Boeimeer,Breda zuid,2018,540,4500,5795,4200,
+94,753,Boeimeer,Breda zuid,2014,480,4500,5795,4200,
+95,305,Boeimeer,Breda zuid,2006,260,4500,5795,4200,
+96,249,Boeimeer,Breda zuid,2005,230,4500,5795,4200,
+97,361,Boeimeer,Breda zuid,2007,270,4500,5795,4200,
+98,1145,Boeimeer,Breda zuid,2021,610,4500,5795,4200,
+99,417,Boeimeer,Breda zuid,2008,300,4500,5795,4200,
+100,529,Boeimeer,Breda zuid,2010,380,4500,5795,4200,
+101,193,Boeimeer,Breda zuid,2004,220,4500,5795,4200,
+102,921,Boeimeer,Breda zuid,2017,510,4500,5795,4200,
+103,81,Boeimeer,Breda zuid,2002,200,4500,5795,4200,
+104,585,Boeimeer,Breda zuid,2011,420,4500,5795,4200,
+105,966,Brabantpark,Breda oost,2018,850,7900,9220,8200,
+106,1022,Brabantpark,Breda oost,2019,930,7900,9220,8200,
+107,518,Brabantpark,Breda oost,2010,590,7900,9220,8200,
+108,742,Brabantpark,Breda oost,2014,730,7900,9220,8200,
+109,350,Brabantpark,Breda oost,2007,520,7900,9220,8200,
+110,70,Brabantpark,Breda oost,2002,450,7900,9220,8200,
+111,294,Brabantpark,Breda oost,2006,460,7900,9220,8200,
+112,854,Brabantpark,Breda oost,2016,780,7900,9220,8200,
+113,14,Brabantpark,Breda oost,2001,440,7900,9220,8200,
+114,798,Brabantpark,Breda oost,2015,760,7900,9220,8200,
+115,1078,Brabantpark,Breda oost,2020,990,7900,9220,8200,
+116,238,Brabantpark,Breda oost,2005,450,7900,9220,8200,
+117,574,Brabantpark,Breda oost,2011,620,7900,9220,8200,
+118,182,Brabantpark,Breda oost,2004,410,7900,9220,8200,
+119,686,Brabantpark,Breda oost,2013,710,7900,9220,8200,
+120,126,Brabantpark,Breda oost,2003,430,7900,9220,8200,
+121,630,Brabantpark,Breda oost,2012,680,7900,9220,8200,
+122,910,Brabantpark,Breda oost,2017,800,7900,9220,8200,
+123,406,Brabantpark,Breda oost,2008,550,7900,9220,8200,
+124,462,Brabantpark,Breda oost,2009,570,7900,9220,8200,
+125,1134,Brabantpark,Breda oost,2021,1090,7900,9220,8200,
+126,328,Buitengebied Bavel,Bavel,2006,20,400,530,460,"0,3%"
+127,440,Buitengebied Bavel,Bavel,2008,30,400,530,460,"0,3%"
+128,552,Buitengebied Bavel,Bavel,2010,30,400,530,460,"0,3%"
+129,776,Buitengebied Bavel,Bavel,2014,60,400,530,460,"0,3%"
+130,160,Buitengebied Bavel,Bavel,2003,20,400,530,460,"0,3%"
+131,1056,Buitengebied Bavel,Bavel,2019,80,400,530,460,"0,3%"
+132,1112,Buitengebied Bavel,Bavel,2020,90,400,530,460,"0,3%"
+133,1168,Buitengebied Bavel,Bavel,2021,90,400,530,460,"0,3%"
+134,944,Buitengebied Bavel,Bavel,2017,70,400,530,460,"0,3%"
+135,104,Buitengebied Bavel,Bavel,2002,20,400,530,460,"0,3%"
+136,216,Buitengebied Bavel,Bavel,2004,20,400,530,460,"0,3%"
+137,832,Buitengebied Bavel,Bavel,2015,60,400,530,460,"0,3%"
+138,272,Buitengebied Bavel,Bavel,2005,20,400,530,460,"0,3%"
+139,496,Buitengebied Bavel,Bavel,2009,20,400,530,460,"0,3%"
+140,720,Buitengebied Bavel,Bavel,2013,60,400,530,460,"0,3%"
+141,888,Buitengebied Bavel,Bavel,2016,60,400,530,460,"0,3%"
+142,608,Buitengebied Bavel,Bavel,2011,50,400,530,460,"0,3%"
+143,48,Buitengebied Bavel,Bavel,2001,20,400,530,460,"0,3%"
+144,1000,Buitengebied Bavel,Bavel,2018,70,400,530,460,"0,3%"
+145,664,Buitengebied Bavel,Bavel,2012,50,400,530,460,"0,3%"
+146,384,Buitengebied Bavel,Bavel,2007,30,400,530,460,"0,3%"
+147,1116,Buitengebied Prinsenbeek,Prinsenbeek,2020,120,700,900,660,"11,5%"
+148,220,Buitengebied Prinsenbeek,Prinsenbeek,2004,40,700,900,660,"11,5%"
+149,500,Buitengebied Prinsenbeek,Prinsenbeek,2009,50,700,900,660,"11,5%"
+150,1172,Buitengebied Prinsenbeek,Prinsenbeek,2021,130,700,900,660,"11,5%"
+151,836,Buitengebied Prinsenbeek,Prinsenbeek,2015,110,700,900,660,"11,5%"
+152,108,Buitengebied Prinsenbeek,Prinsenbeek,2002,40,700,900,660,"11,5%"
+153,1004,Buitengebied Prinsenbeek,Prinsenbeek,2018,120,700,900,660,"11,5%"
+154,388,Buitengebied Prinsenbeek,Prinsenbeek,2007,40,700,900,660,"11,5%"
+155,164,Buitengebied Prinsenbeek,Prinsenbeek,2003,30,700,900,660,"11,5%"
+156,556,Buitengebied Prinsenbeek,Prinsenbeek,2010,50,700,900,660,"11,5%"
+157,276,Buitengebied Prinsenbeek,Prinsenbeek,2005,40,700,900,660,"11,5%"
+158,892,Buitengebied Prinsenbeek,Prinsenbeek,2016,110,700,900,660,"11,5%"
+159,780,Buitengebied Prinsenbeek,Prinsenbeek,2014,100,700,900,660,"11,5%"
+160,52,Buitengebied Prinsenbeek,Prinsenbeek,2001,30,700,900,660,"11,5%"
+161,724,Buitengebied Prinsenbeek,Prinsenbeek,2013,100,700,900,660,"11,5%"
+162,444,Buitengebied Prinsenbeek,Prinsenbeek,2008,50,700,900,660,"11,5%"
+163,948,Buitengebied Prinsenbeek,Prinsenbeek,2017,120,700,900,660,"11,5%"
+164,332,Buitengebied Prinsenbeek,Prinsenbeek,2006,40,700,900,660,"11,5%"
+165,668,Buitengebied Prinsenbeek,Prinsenbeek,2012,100,700,900,660,"11,5%"
+166,1060,Buitengebied Prinsenbeek,Prinsenbeek,2019,120,700,900,660,"11,5%"
+167,612,Buitengebied Prinsenbeek,Prinsenbeek,2011,100,700,900,660,"11,5%"
+168,1007,Buitengebied Teteringen,Tetrigen,2018,10,100,190,120,"131,8%"
+169,335,Buitengebied Teteringen,Tetrigen,2006,10,100,190,120,"131,8%"
+170,895,Buitengebied Teteringen,Tetrigen,2016,10,100,190,120,"131,8%"
+171,223,Buitengebied Teteringen,Tetrigen,2004,10,100,190,120,"131,8%"
+172,559,Buitengebied Teteringen,Tetrigen,2010,10,100,190,120,"131,8%"
+173,1063,Buitengebied Teteringen,Tetrigen,2019,10,100,190,120,"131,8%"
+174,671,Buitengebied Teteringen,Tetrigen,2012,10,100,190,120,"131,8%"
+175,391,Buitengebied Teteringen,Tetrigen,2007,10,100,190,120,"131,8%"
+176,503,Buitengebied Teteringen,Tetrigen,2009,10,100,190,120,"131,8%"
+177,951,Buitengebied Teteringen,Tetrigen,2017,10,100,190,120,"131,8%"
+178,727,Buitengebied Teteringen,Tetrigen,2013,10,100,190,120,"131,8%"
+179,783,Buitengebied Teteringen,Tetrigen,2014,10,100,190,120,"131,8%"
+180,447,Buitengebied Teteringen,Tetrigen,2008,10,100,190,120,"131,8%"
+181,279,Buitengebied Teteringen,Tetrigen,2005,10,100,190,120,"131,8%"
+182,839,Buitengebied Teteringen,Tetrigen,2015,10,100,190,120,"131,8%"
+183,615,Buitengebied Teteringen,Tetrigen,2011,10,100,190,120,"131,8%"
+184,1175,Buitengebied Teteringen,Tetrigen,2021,10,100,190,120,"131,8%"
+185,167,Buitengebied Teteringen,Tetrigen,2003,10,100,190,120,"131,8%"
+186,1119,Buitengebied Teteringen,Tetrigen,2020,20,100,190,120,"131,8%"
+187,55,Buitengebied Teteringen,Tetrigen,2001,10,100,190,120,"131,8%"
+188,111,Buitengebied Teteringen,Tetrigen,2002,10,100,190,120,"131,8%"
+189,50,Buitengebied Ulvenhout,Uvelhout,2001,20,200,250,200,"6,6%"
+190,666,Buitengebied Ulvenhout,Uvelhout,2012,40,200,250,200,"6,6%"
+191,722,Buitengebied Ulvenhout,Uvelhout,2013,40,200,250,200,"6,6%"
+192,218,Buitengebied Ulvenhout,Uvelhout,2004,20,200,250,200,"6,6%"
+193,610,Buitengebied Ulvenhout,Uvelhout,2011,40,200,250,200,"6,6%"
+194,274,Buitengebied Ulvenhout,Uvelhout,2005,20,200,250,200,"6,6%"
+195,162,Buitengebied Ulvenhout,Uvelhout,2003,20,200,250,200,"6,6%"
+196,1058,Buitengebied Ulvenhout,Uvelhout,2019,60,200,250,200,"6,6%"
+197,946,Buitengebied Ulvenhout,Uvelhout,2017,50,200,250,200,"6,6%"
+198,554,Buitengebied Ulvenhout,Uvelhout,2010,30,200,250,200,"6,6%"
+199,498,Buitengebied Ulvenhout,Uvelhout,2009,30,200,250,200,"6,6%"
+200,778,Buitengebied Ulvenhout,Uvelhout,2014,40,200,250,200,"6,6%"
+201,890,Buitengebied Ulvenhout,Uvelhout,2016,40,200,250,200,"6,6%"
+202,1114,Buitengebied Ulvenhout,Uvelhout,2020,60,200,250,200,"6,6%"
+203,386,Buitengebied Ulvenhout,Uvelhout,2007,20,200,250,200,"6,6%"
+204,442,Buitengebied Ulvenhout,Uvelhout,2008,20,200,250,200,"6,6%"
+205,1002,Buitengebied Ulvenhout,Uvelhout,2018,50,200,250,200,"6,6%"
+206,834,Buitengebied Ulvenhout,Uvelhout,2015,40,200,250,200,"6,6%"
+207,330,Buitengebied Ulvenhout,Uvelhout,2006,20,200,250,200,"6,6%"
+208,106,Buitengebied Ulvenhout,Uvelhout,2002,20,200,250,200,"6,6%"
+209,1170,Buitengebied Ulvenhout,Uvelhout,2021,60,200,250,200,"6,6%"
+210,897,Chass,Breda centrum,2017,480,2800,3230,2590,-3.80%
+211,393,Chass,Breda centrum,2008,390,2800,3230,2590,-3.80%
+212,57,Chass,Breda centrum,2002,300,2800,3230,2590,-3.80%
+213,169,Chass,Breda centrum,2004,310,2800,3230,2590,-3.80%
+214,617,Chass,Breda centrum,2012,460,2800,3230,2590,-3.80%
+215,449,Chass,Breda centrum,2009,420,2800,3230,2590,-3.80%
+216,1065,Chass,Breda centrum,2020,520,2800,3230,2590,-3.80%
+217,281,Chass,Breda centrum,2006,340,2800,3230,2590,-3.80%
+218,561,Chass,Breda centrum,2011,450,2800,3230,2590,-3.80%
+219,113,Chass,Breda centrum,2003,290,2800,3230,2590,-3.80%
+220,673,Chass,Breda centrum,2013,470,2800,3230,2590,-3.80%
+221,953,Chass,Breda centrum,2018,510,2800,3230,2590,-3.80%
+222,505,Chass,Breda centrum,2010,450,2800,3230,2590,-3.80%
+223,337,Chass,Breda centrum,2007,370,2800,3230,2590,-3.80%
+224,1009,Chass,Breda centrum,2019,500,2800,3230,2590,-3.80%
+225,1121,Chass,Breda centrum,2021,570,2800,3230,2590,-3.80%
+226,785,Chass,Breda centrum,2015,480,2800,3230,2590,-3.80%
+227,729,Chass,Breda centrum,2014,470,2800,3230,2590,-3.80%
+228,1,Chass,Breda centrum,2001,300,2800,3230,2590,-3.80%
+229,841,Chass,Breda centrum,2016,470,2800,3230,2590,-3.80%
+230,225,Chass,Breda centrum,2005,320,2800,3230,2590,-3.80%
+231,1069,City,Breda centrum,2020,820,2300,2530,2360,-4.20%
+232,733,City,Breda centrum,2014,710,2300,2530,2360,-4.20%
+233,565,City,Breda centrum,2011,700,2300,2530,2360,-4.20%
+234,285,City,Breda centrum,2006,610,2300,2530,2360,-4.20%
+235,341,City,Breda centrum,2007,630,2300,2530,2360,-4.20%
+236,229,City,Breda centrum,2005,580,2300,2530,2360,-4.20%
+237,509,City,Breda centrum,2010,670,2300,2530,2360,-4.20%
+238,957,City,Breda centrum,2018,730,2300,2530,2360,-4.20%
+239,789,City,Breda centrum,2015,700,2300,2530,2360,-4.20%
+240,397,City,Breda centrum,2008,660,2300,2530,2360,-4.20%
+241,453,City,Breda centrum,2009,680,2300,2530,2360,-4.20%
+242,845,City,Breda centrum,2016,680,2300,2530,2360,-4.20%
+243,117,City,Breda centrum,2003,560,2300,2530,2360,-4.20%
+244,5,City,Breda centrum,2001,570,2300,2530,2360,-4.20%
+245,1013,City,Breda centrum,2019,760,2300,2530,2360,-4.20%
+246,621,City,Breda centrum,2012,700,2300,2530,2360,-4.20%
+247,61,City,Breda centrum,2002,570,2300,2530,2360,-4.20%
+248,1125,City,Breda centrum,2021,860,2300,2530,2360,-4.20%
+249,901,City,Breda centrum,2017,720,2300,2530,2360,-4.20%
+250,173,City,Breda centrum,2004,560,2300,2530,2360,-4.20%
+251,677,City,Breda centrum,2013,700,2300,2530,2360,-4.20%
+252,959,Doornbos-Linie,Breda noord,2018,370,3500,4390,3490,
+253,287,Doornbos-Linie,Breda noord,2006,170,3500,4390,3490,
+254,511,Doornbos-Linie,Breda noord,2010,240,3500,4390,3490,
+255,847,Doornbos-Linie,Breda noord,2016,330,3500,4390,3490,
+256,1015,Doornbos-Linie,Breda noord,2019,380,3500,4390,3490,
+257,903,Doornbos-Linie,Breda noord,2017,350,3500,4390,3490,
+258,735,Doornbos-Linie,Breda noord,2014,310,3500,4390,3490,
+259,567,Doornbos-Linie,Breda noord,2011,260,3500,4390,3490,
+260,455,Doornbos-Linie,Breda noord,2009,230,3500,4390,3490,
+261,343,Doornbos-Linie,Breda noord,2007,190,3500,4390,3490,
+262,791,Doornbos-Linie,Breda noord,2015,320,3500,4390,3490,
+263,7,Doornbos-Linie,Breda noord,2001,170,3500,4390,3490,
+264,119,Doornbos-Linie,Breda noord,2003,170,3500,4390,3490,
+265,399,Doornbos-Linie,Breda noord,2008,210,3500,4390,3490,
+266,231,Doornbos-Linie,Breda noord,2005,160,3500,4390,3490,
+267,63,Doornbos-Linie,Breda noord,2002,160,3500,4390,3490,
+268,1127,Doornbos-Linie,Breda noord,2021,480,3500,4390,3490,
+269,623,Doornbos-Linie,Breda noord,2012,290,3500,4390,3490,
+270,679,Doornbos-Linie,Breda noord,2013,310,3500,4390,3490,
+271,1071,Doornbos-Linie,Breda noord,2020,410,3500,4390,3490,
+272,175,Doornbos-Linie,Breda noord,2004,170,3500,4390,3490,
+273,427,Effen-Rith,Breda west,2008,60,700,840,630,-9.00%
+274,1155,Effen-Rith,Breda west,2021,150,700,840,630,-9.00%
+275,91,Effen-Rith,Breda west,2002,50,700,840,630,-9.00%
+276,483,Effen-Rith,Breda west,2009,60,700,840,630,-9.00%
+277,1043,Effen-Rith,Breda west,2019,140,700,840,630,-9.00%
+278,987,Effen-Rith,Breda west,2018,140,700,840,630,-9.00%
+279,1099,Effen-Rith,Breda west,2020,150,700,840,630,-9.00%
+280,315,Effen-Rith,Breda west,2006,50,700,840,630,-9.00%
+281,203,Effen-Rith,Breda west,2004,50,700,840,630,-9.00%
+282,707,Effen-Rith,Breda west,2013,100,700,840,630,-9.00%
+283,147,Effen-Rith,Breda west,2003,50,700,840,630,-9.00%
+284,539,Effen-Rith,Breda west,2010,60,700,840,630,-9.00%
+285,35,Effen-Rith,Breda west,2001,50,700,840,630,-9.00%
+286,371,Effen-Rith,Breda west,2007,50,700,840,630,-9.00%
+287,595,Effen-Rith,Breda west,2011,90,700,840,630,-9.00%
+288,819,Effen-Rith,Breda west,2015,120,700,840,630,-9.00%
+289,763,Effen-Rith,Breda west,2014,110,700,840,630,-9.00%
+290,931,Effen-Rith,Breda west,2017,130,700,840,630,-9.00%
+291,259,Effen-Rith,Breda west,2005,50,700,840,630,-9.00%
+292,875,Effen-Rith,Breda west,2016,120,700,840,630,-9.00%
+293,651,Effen-Rith,Breda west,2012,80,700,840,630,-9.00%
+294,604,Emer,Breda noord-west,2011,260,100,75,60,"3,6%"
+295,660,Emer,Breda noord-west,2012,260,100,75,60,"3,6%"
+296,828,Emer,Breda noord-west,2015,290,100,75,60,"3,6%"
+297,772,Emer,Breda noord-west,2014,260,100,75,60,"3,6%"
+298,1108,Emer,Breda noord-west,2020,340,100,75,60,"3,6%"
+299,884,Emer,Breda noord-west,2016,310,100,75,60,"3,6%"
+300,996,Emer,Breda noord-west,2018,340,100,75,60,"3,6%"
+301,268,Emer,Breda noord-west,2005,220,100,75,60,"3,6%"
+302,44,Emer,Breda noord-west,2001,190,100,75,60,"3,6%"
+303,380,Emer,Breda noord-west,2007,240,100,75,60,"3,6%"
+304,492,Emer,Breda noord-west,2009,250,100,75,60,"3,6%"
+305,436,Emer,Breda noord-west,2008,250,100,75,60,"3,6%"
+306,100,Emer,Breda noord-west,2002,210,100,75,60,"3,6%"
+307,716,Emer,Breda noord-west,2013,260,100,75,60,"3,6%"
+308,940,Emer,Breda noord-west,2017,330,100,75,60,"3,6%"
+309,1052,Emer,Breda noord-west,2019,350,100,75,60,"3,6%"
+310,212,Emer,Breda noord-west,2004,210,100,75,60,"3,6%"
+311,156,Emer,Breda noord-west,2003,200,100,75,60,"3,6%"
+312,548,Emer,Breda noord-west,2010,240,100,75,60,"3,6%"
+313,1164,Emer,Breda noord-west,2021,350,100,75,60,"3,6%"
+314,324,Emer,Breda noord-west,2006,240,100,75,60,"3,6%"
+315,618,Fellenoord,Breda centrum,2012,90,1300,1570,1340,-3.80%
+316,1010,Fellenoord,Breda centrum,2019,130,1300,1570,1340,-3.80%
+317,170,Fellenoord,Breda centrum,2004,50,1300,1570,1340,-3.80%
+318,338,Fellenoord,Breda centrum,2007,50,1300,1570,1340,-3.80%
+319,58,Fellenoord,Breda centrum,2002,50,1300,1570,1340,-3.80%
+320,450,Fellenoord,Breda centrum,2009,70,1300,1570,1340,-3.80%
+321,842,Fellenoord,Breda centrum,2016,100,1300,1570,1340,-3.80%
+322,898,Fellenoord,Breda centrum,2017,90,1300,1570,1340,-3.80%
+323,226,Fellenoord,Breda centrum,2005,60,1300,1570,1340,-3.80%
+324,954,Fellenoord,Breda centrum,2018,100,1300,1570,1340,-3.80%
+325,394,Fellenoord,Breda centrum,2008,60,1300,1570,1340,-3.80%
+326,506,Fellenoord,Breda centrum,2010,70,1300,1570,1340,-3.80%
+327,114,Fellenoord,Breda centrum,2003,50,1300,1570,1340,-3.80%
+328,786,Fellenoord,Breda centrum,2015,90,1300,1570,1340,-3.80%
+329,1066,Fellenoord,Breda centrum,2020,160,1300,1570,1340,-3.80%
+330,674,Fellenoord,Breda centrum,2013,90,1300,1570,1340,-3.80%
+331,730,Fellenoord,Breda centrum,2014,100,1300,1570,1340,-3.80%
+332,2,Fellenoord,Breda centrum,2001,50,1300,1570,1340,-3.80%
+333,1122,Fellenoord,Breda centrum,2021,200,1300,1570,1340,-3.80%
+334,282,Fellenoord,Breda centrum,2006,60,1300,1570,1340,-3.80%
+335,562,Fellenoord,Breda centrum,2011,80,1300,1570,1340,-3.80%
+336,821,Gageldonk,Breda noord-west,2015,320,3800,4780,3690,3.50%
+337,373,Gageldonk,Breda noord-west,2007,220,3800,4780,3690,3.50%
+338,37,Gageldonk,Breda noord-west,2001,170,3800,4780,3690,3.50%
+339,989,Gageldonk,Breda noord-west,2018,340,3800,4780,3690,3.50%
+340,485,Gageldonk,Breda noord-west,2009,240,3800,4780,3690,3.50%
+341,93,Gageldonk,Breda noord-west,2002,170,3800,4780,3690,3.50%
+342,765,Gageldonk,Breda noord-west,2014,310,3800,4780,3690,3.50%
+343,933,Gageldonk,Breda noord-west,2017,330,3800,4780,3690,3.50%
+344,597,Gageldonk,Breda noord-west,2011,290,3800,4780,3690,3.50%
+345,877,Gageldonk,Breda noord-west,2016,340,3800,4780,3690,3.50%
+346,653,Gageldonk,Breda noord-west,2012,310,3800,4780,3690,3.50%
+347,1157,Gageldonk,Breda noord-west,2021,390,3800,4780,3690,3.50%
+348,709,Gageldonk,Breda noord-west,2013,310,3800,4780,3690,3.50%
+349,429,Gageldonk,Breda noord-west,2008,250,3800,4780,3690,3.50%
+350,541,Gageldonk,Breda noord-west,2010,260,3800,4780,3690,3.50%
+351,1101,Gageldonk,Breda noord-west,2020,380,3800,4780,3690,3.50%
+352,261,Gageldonk,Breda noord-west,2005,200,3800,4780,3690,3.50%
+353,1045,Gageldonk,Breda noord-west,2019,380,3800,4780,3690,3.50%
+354,317,Gageldonk,Breda noord-west,2006,200,3800,4780,3690,3.50%
+355,149,Gageldonk,Breda noord-west,2003,170,3800,4780,3690,3.50%
+356,205,Gageldonk,Breda noord-west,2004,190,3800,4780,3690,3.50%
+357,1020,Geeren-noord,Breda noord,2019,120,2000,2695,1940,
+358,180,Geeren-noord,Breda noord,2004,30,2000,2695,1940,
+359,740,Geeren-noord,Breda noord,2014,90,2000,2695,1940,
+360,572,Geeren-noord,Breda noord,2011,80,2000,2695,1940,
+361,684,Geeren-noord,Breda noord,2013,90,2000,2695,1940,
+362,292,Geeren-noord,Breda noord,2006,50,2000,2695,1940,
+363,124,Geeren-noord,Breda noord,2003,30,2000,2695,1940,
+364,348,Geeren-noord,Breda noord,2007,50,2000,2695,1940,
+365,516,Geeren-noord,Breda noord,2010,80,2000,2695,1940,
+366,68,Geeren-noord,Breda noord,2002,30,2000,2695,1940,
+367,236,Geeren-noord,Breda noord,2005,40,2000,2695,1940,
+368,628,Geeren-noord,Breda noord,2012,80,2000,2695,1940,
+369,12,Geeren-noord,Breda noord,2001,30,2000,2695,1940,
+370,796,Geeren-noord,Breda noord,2015,90,2000,2695,1940,
+371,908,Geeren-noord,Breda noord,2017,90,2000,2695,1940,
+372,404,Geeren-noord,Breda noord,2008,60,2000,2695,1940,
+373,964,Geeren-noord,Breda noord,2018,100,2000,2695,1940,
+374,852,Geeren-noord,Breda noord,2016,100,2000,2695,1940,
+375,1076,Geeren-noord,Breda noord,2020,130,2000,2695,1940,
+376,1132,Geeren-noord,Breda noord,2021,140,2000,2695,1940,
+377,460,Geeren-noord,Breda noord,2009,70,2000,2695,1940,
+378,177,Geeren-zuid,Breda noord,2004,110,2815,3385,2740,
+379,1073,Geeren-zuid,Breda noord,2020,260,2815,3385,2740,
+380,345,Geeren-zuid,Breda noord,2007,130,2815,3385,2740,
+381,233,Geeren-zuid,Breda noord,2005,110,2815,3385,2740,
+382,681,Geeren-zuid,Breda noord,2013,190,2815,3385,2740,
+383,625,Geeren-zuid,Breda noord,2012,150,2815,3385,2740,
+384,401,Geeren-zuid,Breda noord,2008,120,2815,3385,2740,
+385,905,Geeren-zuid,Breda noord,2017,190,2815,3385,2740,
+386,961,Geeren-zuid,Breda noord,2018,200,2815,3385,2740,
+387,457,Geeren-zuid,Breda noord,2009,130,2815,3385,2740,
+388,513,Geeren-zuid,Breda noord,2010,140,2815,3385,2740,
+389,9,Geeren-zuid,Breda noord,2001,110,2815,3385,2740,
+390,793,Geeren-zuid,Breda noord,2015,170,2815,3385,2740,
+391,849,Geeren-zuid,Breda noord,2016,180,2815,3385,2740,
+392,1017,Geeren-zuid,Breda noord,2019,230,2815,3385,2740,
+393,121,Geeren-zuid,Breda noord,2003,110,2815,3385,2740,
+394,289,Geeren-zuid,Breda noord,2006,120,2815,3385,2740,
+395,569,Geeren-zuid,Breda noord,2011,140,2815,3385,2740,
+396,737,Geeren-zuid,Breda noord,2014,170,2815,3385,2740,
+397,65,Geeren-zuid,Breda noord,2002,120,2815,3385,2740,
+398,1129,Geeren-zuid,Breda noord,2021,270,2815,3385,2740,
+399,1143,Ginneken,Breda zuid-oost,2021,830,4100,5160,3980,-4.30%
+400,527,Ginneken,Breda zuid-oost,2010,530,4100,5160,3980,-4.30%
+401,583,Ginneken,Breda zuid-oost,2011,560,4100,5160,3980,-4.30%
+402,415,Ginneken,Breda zuid-oost,2008,470,4100,5160,3980,-4.30%
+403,303,Ginneken,Breda zuid-oost,2006,410,4100,5160,3980,-4.30%
+404,639,Ginneken,Breda zuid-oost,2012,590,4100,5160,3980,-4.30%
+405,975,Ginneken,Breda zuid-oost,2018,750,4100,5160,3980,-4.30%
+406,79,Ginneken,Breda zuid-oost,2002,370,4100,5160,3980,-4.30%
+407,919,Ginneken,Breda zuid-oost,2017,720,4100,5160,3980,-4.30%
+408,1031,Ginneken,Breda zuid-oost,2019,770,4100,5160,3980,-4.30%
+409,471,Ginneken,Breda zuid-oost,2009,490,4100,5160,3980,-4.30%
+410,751,Ginneken,Breda zuid-oost,2014,620,4100,5160,3980,-4.30%
+411,247,Ginneken,Breda zuid-oost,2005,380,4100,5160,3980,-4.30%
+412,191,Ginneken,Breda zuid-oost,2004,370,4100,5160,3980,-4.30%
+413,695,Ginneken,Breda zuid-oost,2013,590,4100,5160,3980,-4.30%
+414,359,Ginneken,Breda zuid-oost,2007,450,4100,5160,3980,-4.30%
+415,1087,Ginneken,Breda zuid-oost,2020,810,4100,5160,3980,-4.30%
+416,863,Ginneken,Breda zuid-oost,2016,670,4100,5160,3980,-4.30%
+417,23,Ginneken,Breda zuid-oost,2001,360,4100,5160,3980,-4.30%
+418,135,Ginneken,Breda zuid-oost,2003,360,4100,5160,3980,-4.30%
+419,807,Ginneken,Breda zuid-oost,2015,650,4100,5160,3980,-4.30%
+420,83,Haagpoort,Breda west,2002,50,1700,2130,1720,9.00%
+421,755,Haagpoort,Breda west,2014,140,1700,2130,1720,9.00%
+422,531,Haagpoort,Breda west,2010,110,1700,2130,1720,9.00%
+423,139,Haagpoort,Breda west,2003,60,1700,2130,1720,9.00%
+424,195,Haagpoort,Breda west,2004,60,1700,2130,1720,9.00%
+425,811,Haagpoort,Breda west,2015,140,1700,2130,1720,9.00%
+426,307,Haagpoort,Breda west,2006,60,1700,2130,1720,9.00%
+427,979,Haagpoort,Breda west,2018,150,1700,2130,1720,9.00%
+428,475,Haagpoort,Breda west,2009,100,1700,2130,1720,9.00%
+429,363,Haagpoort,Breda west,2007,70,1700,2130,1720,9.00%
+430,643,Haagpoort,Breda west,2012,120,1700,2130,1720,9.00%
+431,251,Haagpoort,Breda west,2005,60,1700,2130,1720,9.00%
+432,27,Haagpoort,Breda west,2001,50,1700,2130,1720,9.00%
+433,867,Haagpoort,Breda west,2016,130,1700,2130,1720,9.00%
+434,1147,Haagpoort,Breda west,2021,180,1700,2130,1720,9.00%
+435,1091,Haagpoort,Breda west,2020,180,1700,2130,1720,9.00%
+436,419,Haagpoort,Breda west,2008,90,1700,2130,1720,9.00%
+437,587,Haagpoort,Breda west,2011,120,1700,2130,1720,9.00%
+438,699,Haagpoort,Breda west,2013,130,1700,2130,1720,9.00%
+439,923,Haagpoort,Breda west,2017,140,1700,2130,1720,9.00%
+440,1035,Haagpoort,Breda west,2019,170,1700,2130,1720,9.00%
+441,661,Hagebeemd,Breda noord-west,2012,30,200,160,160,"-3,1%"
+442,45,Hagebeemd,Breda noord-west,2001,20,200,160,160,"-3,1%"
+443,885,Hagebeemd,Breda noord-west,2016,40,200,160,160,"-3,1%"
+444,101,Hagebeemd,Breda noord-west,2002,10,200,160,160,"-3,1%"
+445,493,Hagebeemd,Breda noord-west,2009,30,200,160,160,"-3,1%"
+446,717,Hagebeemd,Breda noord-west,2013,30,200,160,160,"-3,1%"
+447,941,Hagebeemd,Breda noord-west,2017,50,200,160,160,"-3,1%"
+448,269,Hagebeemd,Breda noord-west,2005,20,200,160,160,"-3,1%"
+449,1165,Hagebeemd,Breda noord-west,2021,50,200,160,160,"-3,1%"
+450,773,Hagebeemd,Breda noord-west,2014,30,200,160,160,"-3,1%"
+451,1053,Hagebeemd,Breda noord-west,2019,50,200,160,160,"-3,1%"
+452,213,Hagebeemd,Breda noord-west,2004,20,200,160,160,"-3,1%"
+453,549,Hagebeemd,Breda noord-west,2010,30,200,160,160,"-3,1%"
+454,1109,Hagebeemd,Breda noord-west,2020,50,200,160,160,"-3,1%"
+455,157,Hagebeemd,Breda noord-west,2003,10,200,160,160,"-3,1%"
+456,605,Hagebeemd,Breda noord-west,2011,40,200,160,160,"-3,1%"
+457,829,Hagebeemd,Breda noord-west,2015,40,200,160,160,"-3,1%"
+458,437,Hagebeemd,Breda noord-west,2008,30,200,160,160,"-3,1%"
+459,325,Hagebeemd,Breda noord-west,2006,20,200,160,160,"-3,1%"
+460,997,Hagebeemd,Breda noord-west,2018,50,200,160,160,"-3,1%"
+461,381,Hagebeemd,Breda noord-west,2007,20,200,160,160,"-3,1%"
+462,593,Hazeldonk,Breda west,2011,90,0,50,40,-5.20%
+463,873,Hazeldonk,Breda west,2016,100,0,50,40,-5.20%
+464,33,Hazeldonk,Breda west,2001,70,0,50,40,-5.20%
+465,705,Hazeldonk,Breda west,2013,100,0,50,40,-5.20%
+466,313,Hazeldonk,Breda west,2006,80,0,50,40,-5.20%
+467,145,Hazeldonk,Breda west,2003,60,0,50,40,-5.20%
+468,1153,Hazeldonk,Breda west,2021,90,0,50,40,-5.20%
+469,649,Hazeldonk,Breda west,2012,90,0,50,40,-5.20%
+470,257,Hazeldonk,Breda west,2005,80,0,50,40,-5.20%
+471,425,Hazeldonk,Breda west,2008,90,0,50,40,-5.20%
+472,929,Hazeldonk,Breda west,2017,90,0,50,40,-5.20%
+473,537,Hazeldonk,Breda west,2010,90,0,50,40,-5.20%
+474,1041,Hazeldonk,Breda west,2019,90,0,50,40,-5.20%
+475,481,Hazeldonk,Breda west,2009,90,0,50,40,-5.20%
+476,89,Hazeldonk,Breda west,2002,60,0,50,40,-5.20%
+477,817,Hazeldonk,Breda west,2015,100,0,50,40,-5.20%
+478,1097,Hazeldonk,Breda west,2020,80,0,50,40,-5.20%
+479,761,Hazeldonk,Breda west,2014,100,0,50,40,-5.20%
+480,985,Hazeldonk,Breda west,2018,90,0,50,40,-5.20%
+481,201,Hazeldonk,Breda west,2004,70,0,50,40,-5.20%
+482,369,Hazeldonk,Breda west,2007,90,0,50,40,-5.20%
+483,256,Heilaar,Breda west,2005,90,400,385,360,
+484,928,Heilaar,Breda west,2017,220,400,385,360,
+485,984,Heilaar,Breda west,2018,230,400,385,360,
+486,424,Heilaar,Breda west,2008,140,400,385,360,
+487,1096,Heilaar,Breda west,2020,270,400,385,360,
+488,1152,Heilaar,Breda west,2021,280,400,385,360,
+489,200,Heilaar,Breda west,2004,80,400,385,360,
+490,480,Heilaar,Breda west,2009,150,400,385,360,
+491,648,Heilaar,Breda west,2012,180,400,385,360,
+492,368,Heilaar,Breda west,2007,120,400,385,360,
+493,592,Heilaar,Breda west,2011,170,400,385,360,
+494,1040,Heilaar,Breda west,2019,250,400,385,360,
+495,144,Heilaar,Breda west,2003,80,400,385,360,
+496,88,Heilaar,Breda west,2002,80,400,385,360,
+497,704,Heilaar,Breda west,2013,190,400,385,360,
+498,536,Heilaar,Breda west,2010,160,400,385,360,
+499,312,Heilaar,Breda west,2006,100,400,385,360,
+500,872,Heilaar,Breda west,2016,210,400,385,360,
+501,32,Heilaar,Breda west,2001,70,400,385,360,
+502,760,Heilaar,Breda west,2014,200,400,385,360,
+503,816,Heilaar,Breda west,2015,200,400,385,360,
+504,433,Heksenwiel,Breda noord-west,2008,240,3700,4715,3460,
+505,321,Heksenwiel,Breda noord-west,2006,190,3700,4715,3460,
+506,545,Heksenwiel,Breda noord-west,2010,270,3700,4715,3460,
+507,937,Heksenwiel,Breda noord-west,2017,300,3700,4715,3460,
+508,153,Heksenwiel,Breda noord-west,2003,160,3700,4715,3460,
+509,825,Heksenwiel,Breda noord-west,2015,310,3700,4715,3460,
+510,377,Heksenwiel,Breda noord-west,2007,210,3700,4715,3460,
+511,265,Heksenwiel,Breda noord-west,2005,170,3700,4715,3460,
+512,657,Heksenwiel,Breda noord-west,2012,280,3700,4715,3460,
+513,1105,Heksenwiel,Breda noord-west,2020,380,3700,4715,3460,
+514,881,Heksenwiel,Breda noord-west,2016,320,3700,4715,3460,
+515,209,Heksenwiel,Breda noord-west,2004,160,3700,4715,3460,
+516,769,Heksenwiel,Breda noord-west,2014,300,3700,4715,3460,
+517,713,Heksenwiel,Breda noord-west,2013,280,3700,4715,3460,
+518,1161,Heksenwiel,Breda noord-west,2021,390,3700,4715,3460,
+519,601,Heksenwiel,Breda noord-west,2011,280,3700,4715,3460,
+520,41,Heksenwiel,Breda noord-west,2001,140,3700,4715,3460,
+521,1049,Heksenwiel,Breda noord-west,2019,370,3700,4715,3460,
+522,993,Heksenwiel,Breda noord-west,2018,330,3700,4715,3460,
+523,489,Heksenwiel,Breda noord-west,2009,270,3700,4715,3460,
+524,97,Heksenwiel,Breda noord-west,2002,150,3700,4715,3460,
+525,1137,Heusdenhout,Breda oost,2021,390,4200,5160,3630,8.80%
+526,1081,Heusdenhout,Breda oost,2020,390,4200,5160,3630,8.80%
+527,17,Heusdenhout,Breda oost,2001,170,4200,5160,3630,8.80%
+528,1025,Heusdenhout,Breda oost,2019,360,4200,5160,3630,8.80%
+529,857,Heusdenhout,Breda oost,2016,320,4200,5160,3630,8.80%
+530,353,Heusdenhout,Breda oost,2007,190,4200,5160,3630,8.80%
+531,73,Heusdenhout,Breda oost,2002,170,4200,5160,3630,8.80%
+532,577,Heusdenhout,Breda oost,2011,260,4200,5160,3630,8.80%
+533,409,Heusdenhout,Breda oost,2008,210,4200,5160,3630,8.80%
+534,745,Heusdenhout,Breda oost,2014,260,4200,5160,3630,8.80%
+535,689,Heusdenhout,Breda oost,2013,270,4200,5160,3630,8.80%
+536,185,Heusdenhout,Breda oost,2004,170,4200,5160,3630,8.80%
+537,969,Heusdenhout,Breda oost,2018,350,4200,5160,3630,8.80%
+538,129,Heusdenhout,Breda oost,2003,170,4200,5160,3630,8.80%
+539,633,Heusdenhout,Breda oost,2012,260,4200,5160,3630,8.80%
+540,801,Heusdenhout,Breda oost,2015,300,4200,5160,3630,8.80%
+541,241,Heusdenhout,Breda oost,2005,170,4200,5160,3630,8.80%
+542,913,Heusdenhout,Breda oost,2017,330,4200,5160,3630,8.80%
+543,521,Heusdenhout,Breda oost,2010,230,4200,5160,3630,8.80%
+544,297,Heusdenhout,Breda oost,2006,190,4200,5160,3630,8.80%
+545,465,Heusdenhout,Breda oost,2009,230,4200,5160,3630,8.80%
+546,28,Heuvel,Breda west,2001,140,6500,6845,5820,
+547,700,Heuvel,Breda west,2013,420,6500,6845,5820,
+548,868,Heuvel,Breda west,2016,550,6500,6845,5820,
+549,1092,Heuvel,Breda west,2020,650,6500,6845,5820,
+550,476,Heuvel,Breda west,2009,290,6500,6845,5820,
+551,1148,Heuvel,Breda west,2021,710,6500,6845,5820,
+552,252,Heuvel,Breda west,2005,160,6500,6845,5820,
+553,588,Heuvel,Breda west,2011,330,6500,6845,5820,
+554,756,Heuvel,Breda west,2014,480,6500,6845,5820,
+555,812,Heuvel,Breda west,2015,530,6500,6845,5820,
+556,196,Heuvel,Breda west,2004,150,6500,6845,5820,
+557,924,Heuvel,Breda west,2017,580,6500,6845,5820,
+558,420,Heuvel,Breda west,2008,240,6500,6845,5820,
+559,364,Heuvel,Breda west,2007,210,6500,6845,5820,
+560,140,Heuvel,Breda west,2003,150,6500,6845,5820,
+561,1036,Heuvel,Breda west,2019,620,6500,6845,5820,
+562,308,Heuvel,Breda west,2006,200,6500,6845,5820,
+563,84,Heuvel,Breda west,2002,130,6500,6845,5820,
+564,644,Heuvel,Breda west,2012,370,6500,6845,5820,
+565,532,Heuvel,Breda west,2010,300,6500,6845,5820,
+566,980,Heuvel,Breda west,2018,620,6500,6845,5820,
+567,523,Hoogeind,Breda oost,2010,240,0,50,40,
+568,803,Hoogeind,Breda oost,2015,230,0,50,40,
+569,187,Hoogeind,Breda oost,2004,180,0,50,40,
+570,747,Hoogeind,Breda oost,2014,230,0,50,40,
+571,243,Hoogeind,Breda oost,2005,200,0,50,40,
+572,859,Hoogeind,Breda oost,2016,250,0,50,40,
+573,971,Hoogeind,Breda oost,2018,290,0,50,40,
+574,467,Hoogeind,Breda oost,2009,240,0,50,40,
+575,691,Hoogeind,Breda oost,2013,250,0,50,40,
+576,299,Hoogeind,Breda oost,2006,210,0,50,40,
+577,355,Hoogeind,Breda oost,2007,220,0,50,40,
+578,635,Hoogeind,Breda oost,2012,250,0,50,40,
+579,1027,Hoogeind,Breda oost,2019,290,0,50,40,
+580,411,Hoogeind,Breda oost,2008,230,0,50,40,
+581,915,Hoogeind,Breda oost,2017,270,0,50,40,
+582,1139,Hoogeind,Breda oost,2021,300,0,50,40,
+583,75,Hoogeind,Breda oost,2002,120,0,50,40,
+584,579,Hoogeind,Breda oost,2011,240,0,50,40,
+585,1083,Hoogeind,Breda oost,2020,300,0,50,40,
+586,19,Hoogeind,Breda oost,2001,110,0,50,40,
+587,131,Hoogeind,Breda oost,2003,150,0,50,40,
+588,1047,Kesteren,Breda noord-west,2019,350,3000,3850,2990,-18.90%
+589,95,Kesteren,Breda noord-west,2002,130,3000,3850,2990,-18.90%
+590,991,Kesteren,Breda noord-west,2018,300,3000,3850,2990,-18.90%
+591,879,Kesteren,Breda noord-west,2016,270,3000,3850,2990,-18.90%
+592,263,Kesteren,Breda noord-west,2005,140,3000,3850,2990,-18.90%
+593,823,Kesteren,Breda noord-west,2015,270,3000,3850,2990,-18.90%
+594,1103,Kesteren,Breda noord-west,2020,390,3000,3850,2990,-18.90%
+595,487,Kesteren,Breda noord-west,2009,220,3000,3850,2990,-18.90%
+596,711,Kesteren,Breda noord-west,2013,270,3000,3850,2990,-18.90%
+597,319,Kesteren,Breda noord-west,2006,160,3000,3850,2990,-18.90%
+598,39,Kesteren,Breda noord-west,2001,110,3000,3850,2990,-18.90%
+599,543,Kesteren,Breda noord-west,2010,240,3000,3850,2990,-18.90%
+600,207,Kesteren,Breda noord-west,2004,130,3000,3850,2990,-18.90%
+601,655,Kesteren,Breda noord-west,2012,270,3000,3850,2990,-18.90%
+602,599,Kesteren,Breda noord-west,2011,260,3000,3850,2990,-18.90%
+603,767,Kesteren,Breda noord-west,2014,270,3000,3850,2990,-18.90%
+604,431,Kesteren,Breda noord-west,2008,220,3000,3850,2990,-18.90%
+605,935,Kesteren,Breda noord-west,2017,280,3000,3850,2990,-18.90%
+606,151,Kesteren,Breda noord-west,2003,120,3000,3850,2990,-18.90%
+607,1159,Kesteren,Breda noord-west,2021,420,3000,3850,2990,-18.90%
+608,375,Kesteren,Breda noord-west,2007,200,3000,3850,2990,-18.90%
+609,934,Kievitsloop,Breda noord-west,2017,350,3400,4425,3340,
+610,1158,Kievitsloop,Breda noord-west,2021,390,3400,4425,3340,
+611,990,Kievitsloop,Breda noord-west,2018,350,3400,4425,3340,
+612,542,Kievitsloop,Breda noord-west,2010,280,3400,4425,3340,
+613,206,Kievitsloop,Breda noord-west,2004,190,3400,4425,3340,
+614,150,Kievitsloop,Breda noord-west,2003,200,3400,4425,3340,
+615,1046,Kievitsloop,Breda noord-west,2019,370,3400,4425,3340,
+616,710,Kievitsloop,Breda noord-west,2013,320,3400,4425,3340,
+617,486,Kievitsloop,Breda noord-west,2009,260,3400,4425,3340,
+618,654,Kievitsloop,Breda noord-west,2012,300,3400,4425,3340,
+619,374,Kievitsloop,Breda noord-west,2007,250,3400,4425,3340,
+620,38,Kievitsloop,Breda noord-west,2001,190,3400,4425,3340,
+621,1102,Kievitsloop,Breda noord-west,2020,390,3400,4425,3340,
+622,262,Kievitsloop,Breda noord-west,2005,200,3400,4425,3340,
+623,766,Kievitsloop,Breda noord-west,2014,330,3400,4425,3340,
+624,878,Kievitsloop,Breda noord-west,2016,330,3400,4425,3340,
+625,318,Kievitsloop,Breda noord-west,2006,220,3400,4425,3340,
+626,822,Kievitsloop,Breda noord-west,2015,330,3400,4425,3340,
+627,94,Kievitsloop,Breda noord-west,2002,200,3400,4425,3340,
+628,430,Kievitsloop,Breda noord-west,2008,240,3400,4425,3340,
+629,598,Kievitsloop,Breda noord-west,2011,280,3400,4425,3340,
+630,99,Kroeten,Breda noord-west,2002,40,1700,2375,1770,"4,7%"
+631,1051,Kroeten,Breda noord-west,2019,190,1700,2375,1770,"4,7%"
+632,659,Kroeten,Breda noord-west,2012,140,1700,2375,1770,"4,7%"
+633,43,Kroeten,Breda noord-west,2001,30,1700,2375,1770,"4,7%"
+634,883,Kroeten,Breda noord-west,2016,150,1700,2375,1770,"4,7%"
+635,827,Kroeten,Breda noord-west,2015,150,1700,2375,1770,"4,7%"
+636,995,Kroeten,Breda noord-west,2018,170,1700,2375,1770,"4,7%"
+637,547,Kroeten,Breda noord-west,2010,140,1700,2375,1770,"4,7%"
+638,155,Kroeten,Breda noord-west,2003,50,1700,2375,1770,"4,7%"
+639,323,Kroeten,Breda noord-west,2006,90,1700,2375,1770,"4,7%"
+640,435,Kroeten,Breda noord-west,2008,110,1700,2375,1770,"4,7%"
+641,771,Kroeten,Breda noord-west,2014,160,1700,2375,1770,"4,7%"
+642,939,Kroeten,Breda noord-west,2017,150,1700,2375,1770,"4,7%"
+643,211,Kroeten,Breda noord-west,2004,60,1700,2375,1770,"4,7%"
+644,1163,Kroeten,Breda noord-west,2021,220,1700,2375,1770,"4,7%"
+645,1107,Kroeten,Breda noord-west,2020,200,1700,2375,1770,"4,7%"
+646,267,Kroeten,Breda noord-west,2005,70,1700,2375,1770,"4,7%"
+647,491,Kroeten,Breda noord-west,2009,130,1700,2375,1770,"4,7%"
+648,715,Kroeten,Breda noord-west,2013,150,1700,2375,1770,"4,7%"
+649,603,Kroeten,Breda noord-west,2011,140,1700,2375,1770,"4,7%"
+650,379,Kroeten,Breda noord-west,2007,100,1700,2375,1770,"4,7%"
+651,179,Krogten,Breda noord,2004,210,200,235,170,
+652,11,Krogten,Breda noord,2001,190,200,235,170,
+653,403,Krogten,Breda noord,2008,240,200,235,170,
+654,1019,Krogten,Breda noord,2019,360,200,235,170,
+655,235,Krogten,Breda noord,2005,220,200,235,170,
+656,851,Krogten,Breda noord,2016,350,200,235,170,
+657,739,Krogten,Breda noord,2014,320,200,235,170,
+658,459,Krogten,Breda noord,2009,270,200,235,170,
+659,347,Krogten,Breda noord,2007,240,200,235,170,
+660,795,Krogten,Breda noord,2015,330,200,235,170,
+661,683,Krogten,Breda noord,2013,310,200,235,170,
+662,907,Krogten,Breda noord,2017,330,200,235,170,
+663,291,Krogten,Breda noord,2006,220,200,235,170,
+664,571,Krogten,Breda noord,2011,290,200,235,170,
+665,627,Krogten,Breda noord,2012,290,200,235,170,
+666,1075,Krogten,Breda noord,2020,370,200,235,170,
+667,515,Krogten,Breda noord,2010,280,200,235,170,
+668,67,Krogten,Breda noord,2002,200,200,235,170,
+669,1131,Krogten,Breda noord,2021,410,200,235,170,
+670,123,Krogten,Breda noord,2003,210,200,235,170,
+671,963,Krogten,Breda noord,2018,350,200,235,170,
+672,540,Liesbos,Breda west,2010,60,500,705,510,-7.00%
+673,876,Liesbos,Breda west,2016,90,500,705,510,-7.00%
+674,988,Liesbos,Breda west,2018,100,500,705,510,-7.00%
+675,932,Liesbos,Breda west,2017,100,500,705,510,-7.00%
+676,36,Liesbos,Breda west,2001,50,500,705,510,-7.00%
+677,260,Liesbos,Breda west,2005,40,500,705,510,-7.00%
+678,1100,Liesbos,Breda west,2020,110,500,705,510,-7.00%
+679,484,Liesbos,Breda west,2009,60,500,705,510,-7.00%
+680,708,Liesbos,Breda west,2013,90,500,705,510,-7.00%
+681,764,Liesbos,Breda west,2014,100,500,705,510,-7.00%
+682,596,Liesbos,Breda west,2011,90,500,705,510,-7.00%
+683,316,Liesbos,Breda west,2006,50,500,705,510,-7.00%
+684,820,Liesbos,Breda west,2015,100,500,705,510,-7.00%
+685,428,Liesbos,Breda west,2008,60,500,705,510,-7.00%
+686,652,Liesbos,Breda west,2012,90,500,705,510,-7.00%
+687,1156,Liesbos,Breda west,2021,120,500,705,510,-7.00%
+688,372,Liesbos,Breda west,2007,50,500,705,510,-7.00%
+689,1044,Liesbos,Breda west,2019,110,500,705,510,-7.00%
+690,204,Liesbos,Breda west,2004,50,500,705,510,-7.00%
+691,92,Liesbos,Breda west,2002,40,500,705,510,-7.00%
+692,148,Liesbos,Breda west,2003,40,500,705,510,-7.00%
+693,248,Mastbos,Breda zuid-oost,2005,40,300,525,470,-7.20%
+694,472,Mastbos,Breda zuid-oost,2009,40,300,525,470,-7.20%
+695,304,Mastbos,Breda zuid-oost,2006,40,300,525,470,-7.20%
+696,528,Mastbos,Breda zuid-oost,2010,50,300,525,470,-7.20%
+697,808,Mastbos,Breda zuid-oost,2015,60,300,525,470,-7.20%
+698,752,Mastbos,Breda zuid-oost,2014,60,300,525,470,-7.20%
+699,1144,Mastbos,Breda zuid-oost,2021,100,300,525,470,-7.20%
+700,1088,Mastbos,Breda zuid-oost,2020,80,300,525,470,-7.20%
+701,976,Mastbos,Breda zuid-oost,2018,60,300,525,470,-7.20%
+702,136,Mastbos,Breda zuid-oost,2003,40,300,525,470,-7.20%
+703,920,Mastbos,Breda zuid-oost,2017,60,300,525,470,-7.20%
+704,416,Mastbos,Breda zuid-oost,2008,40,300,525,470,-7.20%
+705,360,Mastbos,Breda zuid-oost,2007,40,300,525,470,-7.20%
+706,24,Mastbos,Breda zuid-oost,2001,30,300,525,470,-7.20%
+707,192,Mastbos,Breda zuid-oost,2004,40,300,525,470,-7.20%
+708,696,Mastbos,Breda zuid-oost,2013,60,300,525,470,-7.20%
+709,584,Mastbos,Breda zuid-oost,2011,60,300,525,470,-7.20%
+710,1032,Mastbos,Breda zuid-oost,2019,60,300,525,470,-7.20%
+711,640,Mastbos,Breda zuid-oost,2012,50,300,525,470,-7.20%
+712,864,Mastbos,Breda zuid-oost,2016,60,300,525,470,-7.20%
+713,80,Mastbos,Breda zuid-oost,2002,30,300,525,470,-7.20%
+714,410,Moleneind-oost,Breda oost,2008,130,100,70,40,
+715,242,Moleneind-oost,Breda oost,2005,100,100,70,40,
+716,1138,Moleneind-oost,Breda oost,2021,140,100,70,40,
+717,746,Moleneind-oost,Breda oost,2014,160,100,70,40,
+718,802,Moleneind-oost,Breda oost,2015,230,100,70,40,
+719,1082,Moleneind-oost,Breda oost,2020,130,100,70,40,
+720,298,Moleneind-oost,Breda oost,2006,100,100,70,40,
+721,354,Moleneind-oost,Breda oost,2007,110,100,70,40,
+722,690,Moleneind-oost,Breda oost,2013,120,100,70,40,
+723,74,Moleneind-oost,Breda oost,2002,110,100,70,40,
+724,1026,Moleneind-oost,Breda oost,2019,140,100,70,40,
+725,130,Moleneind-oost,Breda oost,2003,100,100,70,40,
+726,634,Moleneind-oost,Breda oost,2012,100,100,70,40,
+727,466,Moleneind-oost,Breda oost,2009,130,100,70,40,
+728,914,Moleneind-oost,Breda oost,2017,180,100,70,40,
+729,18,Moleneind-oost,Breda oost,2001,110,100,70,40,
+730,970,Moleneind-oost,Breda oost,2018,140,100,70,40,
+731,186,Moleneind-oost,Breda oost,2004,100,100,70,40,
+732,522,Moleneind-oost,Breda oost,2010,110,100,70,40,
+733,858,Moleneind-oost,Breda oost,2016,230,100,70,40,
+734,578,Moleneind-oost,Breda oost,2011,110,100,70,40,
+735,432,Muizenberg,Breda noord-west,2008,160,2400,3190,2380,0.50%
+736,376,Muizenberg,Breda noord-west,2007,150,2400,3190,2380,0.50%
+737,320,Muizenberg,Breda noord-west,2006,150,2400,3190,2380,0.50%
+738,936,Muizenberg,Breda noord-west,2017,220,2400,3190,2380,0.50%
+739,208,Muizenberg,Breda noord-west,2004,120,2400,3190,2380,0.50%
+740,768,Muizenberg,Breda noord-west,2014,200,2400,3190,2380,0.50%
+741,992,Muizenberg,Breda noord-west,2018,230,2400,3190,2380,0.50%
+742,544,Muizenberg,Breda noord-west,2010,190,2400,3190,2380,0.50%
+743,824,Muizenberg,Breda noord-west,2015,200,2400,3190,2380,0.50%
+744,656,Muizenberg,Breda noord-west,2012,200,2400,3190,2380,0.50%
+745,40,Muizenberg,Breda noord-west,2001,130,2400,3190,2380,0.50%
+746,1048,Muizenberg,Breda noord-west,2019,250,2400,3190,2380,0.50%
+747,1104,Muizenberg,Breda noord-west,2020,250,2400,3190,2380,0.50%
+748,96,Muizenberg,Breda noord-west,2002,120,2400,3190,2380,0.50%
+749,600,Muizenberg,Breda noord-west,2011,190,2400,3190,2380,0.50%
+750,880,Muizenberg,Breda noord-west,2016,220,2400,3190,2380,0.50%
+751,712,Muizenberg,Breda noord-west,2013,210,2400,3190,2380,0.50%
+752,264,Muizenberg,Breda noord-west,2005,140,2400,3190,2380,0.50%
+753,488,Muizenberg,Breda noord-west,2009,180,2400,3190,2380,0.50%
+754,152,Muizenberg,Breda noord-west,2003,120,2400,3190,2380,0.50%
+755,1160,Muizenberg,Breda noord-west,2021,260,2400,3190,2380,0.50%
+756,551,Nieuw Wolfslaar,Bavel,2010,120,1800,2355,1700,"11,6%"
+757,943,Nieuw Wolfslaar,Bavel,2017,170,1800,2355,1700,"11,6%"
+758,663,Nieuw Wolfslaar,Bavel,2012,140,1800,2355,1700,"11,6%"
+759,47,Nieuw Wolfslaar,Bavel,2001,10,1800,2355,1700,"11,6%"
+760,1167,Nieuw Wolfslaar,Bavel,2021,230,1800,2355,1700,"11,6%"
+761,495,Nieuw Wolfslaar,Bavel,2009,100,1800,2355,1700,"11,6%"
+762,159,Nieuw Wolfslaar,Bavel,2003,10,1800,2355,1700,"11,6%"
+763,1111,Nieuw Wolfslaar,Bavel,2020,210,1800,2355,1700,"11,6%"
+764,775,Nieuw Wolfslaar,Bavel,2014,150,1800,2355,1700,"11,6%"
+765,887,Nieuw Wolfslaar,Bavel,2016,160,1800,2355,1700,"11,6%"
+766,103,Nieuw Wolfslaar,Bavel,2002,10,1800,2355,1700,"11,6%"
+767,215,Nieuw Wolfslaar,Bavel,2004,30,1800,2355,1700,"11,6%"
+768,607,Nieuw Wolfslaar,Bavel,2011,130,1800,2355,1700,"11,6%"
+769,383,Nieuw Wolfslaar,Bavel,2007,70,1800,2355,1700,"11,6%"
+770,439,Nieuw Wolfslaar,Bavel,2008,90,1800,2355,1700,"11,6%"
+771,831,Nieuw Wolfslaar,Bavel,2015,160,1800,2355,1700,"11,6%"
+772,271,Nieuw Wolfslaar,Bavel,2005,40,1800,2355,1700,"11,6%"
+773,327,Nieuw Wolfslaar,Bavel,2006,50,1800,2355,1700,"11,6%"
+774,999,Nieuw Wolfslaar,Bavel,2018,180,1800,2355,1700,"11,6%"
+775,719,Nieuw Wolfslaar,Bavel,2013,140,1800,2355,1700,"11,6%"
+776,1055,Nieuw Wolfslaar,Bavel,2019,200,1800,2355,1700,"11,6%"
+777,358,Overakker,Breda zuid-oost,2007,160,2200,3050,2130,0.80%
+778,470,Overakker,Breda zuid-oost,2009,170,2200,3050,2130,0.80%
+779,1030,Overakker,Breda zuid-oost,2019,320,2200,3050,2130,0.80%
+780,190,Overakker,Breda zuid-oost,2004,120,2200,3050,2130,0.80%
+781,806,Overakker,Breda zuid-oost,2015,260,2200,3050,2130,0.80%
+782,1142,Overakker,Breda zuid-oost,2021,330,2200,3050,2130,0.80%
+783,246,Overakker,Breda zuid-oost,2005,130,2200,3050,2130,0.80%
+784,750,Overakker,Breda zuid-oost,2014,230,2200,3050,2130,0.80%
+785,302,Overakker,Breda zuid-oost,2006,150,2200,3050,2130,0.80%
+786,918,Overakker,Breda zuid-oost,2017,280,2200,3050,2130,0.80%
+787,1086,Overakker,Breda zuid-oost,2020,330,2200,3050,2130,0.80%
+788,638,Overakker,Breda zuid-oost,2012,220,2200,3050,2130,0.80%
+789,414,Overakker,Breda zuid-oost,2008,160,2200,3050,2130,0.80%
+790,694,Overakker,Breda zuid-oost,2013,220,2200,3050,2130,0.80%
+791,862,Overakker,Breda zuid-oost,2016,250,2200,3050,2130,0.80%
+792,134,Overakker,Breda zuid-oost,2003,120,2200,3050,2130,0.80%
+793,526,Overakker,Breda zuid-oost,2010,190,2200,3050,2130,0.80%
+794,22,Overakker,Breda zuid-oost,2001,110,2200,3050,2130,0.80%
+795,974,Overakker,Breda zuid-oost,2018,300,2200,3050,2130,0.80%
+796,78,Overakker,Breda zuid-oost,2002,110,2200,3050,2130,0.80%
+797,582,Overakker,Breda zuid-oost,2011,210,2200,3050,2130,0.80%
+798,42,Overkroeten,Breda noord-west,2001,80,2600,3330,2480,"-1,6%"
+799,154,Overkroeten,Breda noord-west,2003,90,2600,3330,2480,"-1,6%"
+800,98,Overkroeten,Breda noord-west,2002,80,2600,3330,2480,"-1,6%"
+801,658,Overkroeten,Breda noord-west,2012,190,2600,3330,2480,"-1,6%"
+802,826,Overkroeten,Breda noord-west,2015,200,2600,3330,2480,"-1,6%"
+803,882,Overkroeten,Breda noord-west,2016,190,2600,3330,2480,"-1,6%"
+804,490,Overkroeten,Breda noord-west,2009,150,2600,3330,2480,"-1,6%"
+805,714,Overkroeten,Breda noord-west,2013,190,2600,3330,2480,"-1,6%"
+806,322,Overkroeten,Breda noord-west,2006,120,2600,3330,2480,"-1,6%"
+807,994,Overkroeten,Breda noord-west,2018,210,2600,3330,2480,"-1,6%"
+808,266,Overkroeten,Breda noord-west,2005,110,2600,3330,2480,"-1,6%"
+809,602,Overkroeten,Breda noord-west,2011,200,2600,3330,2480,"-1,6%"
+810,1050,Overkroeten,Breda noord-west,2019,230,2600,3330,2480,"-1,6%"
+811,546,Overkroeten,Breda noord-west,2010,170,2600,3330,2480,"-1,6%"
+812,1162,Overkroeten,Breda noord-west,2021,240,2600,3330,2480,"-1,6%"
+813,1106,Overkroeten,Breda noord-west,2020,230,2600,3330,2480,"-1,6%"
+814,434,Overkroeten,Breda noord-west,2008,150,2600,3330,2480,"-1,6%"
+815,378,Overkroeten,Breda noord-west,2007,140,2600,3330,2480,"-1,6%"
+816,210,Overkroeten,Breda noord-west,2004,90,2600,3330,2480,"-1,6%"
+817,938,Overkroeten,Breda noord-west,2017,200,2600,3330,2480,"-1,6%"
+818,770,Overkroeten,Breda noord-west,2014,200,2600,3330,2480,"-1,6%"
+819,982,Princenhage,Breda west,2018,740,6800,8380,6320,6.40%
+820,1094,Princenhage,Breda west,2020,840,6800,8380,6320,6.40%
+821,1038,Princenhage,Breda west,2019,790,6800,8380,6320,6.40%
+822,870,Princenhage,Breda west,2016,660,6800,8380,6320,6.40%
+823,1150,Princenhage,Breda west,2021,890,6800,8380,6320,6.40%
+824,926,Princenhage,Breda west,2017,690,6800,8380,6320,6.40%
+825,590,Princenhage,Breda west,2011,530,6800,8380,6320,6.40%
+826,198,Princenhage,Breda west,2004,380,6800,8380,6320,6.40%
+827,702,Princenhage,Breda west,2013,590,6800,8380,6320,6.40%
+828,86,Princenhage,Breda west,2002,370,6800,8380,6320,6.40%
+829,646,Princenhage,Breda west,2012,550,6800,8380,6320,6.40%
+830,142,Princenhage,Breda west,2003,370,6800,8380,6320,6.40%
+831,30,Princenhage,Breda west,2001,360,6800,8380,6320,6.40%
+832,534,Princenhage,Breda west,2010,500,6800,8380,6320,6.40%
+833,478,Princenhage,Breda west,2009,470,6800,8380,6320,6.40%
+834,254,Princenhage,Breda west,2005,380,6800,8380,6320,6.40%
+835,758,Princenhage,Breda west,2014,630,6800,8380,6320,6.40%
+836,422,Princenhage,Breda west,2008,450,6800,8380,6320,6.40%
+837,814,Princenhage,Breda west,2015,630,6800,8380,6320,6.40%
+838,310,Princenhage,Breda west,2006,410,6800,8380,6320,6.40%
+839,366,Princenhage,Breda west,2007,430,6800,8380,6320,6.40%
+840,443,Prinsenbeek,Prinsenbeek,2008,570,8600,10650,8011,"2,5%"
+841,331,Prinsenbeek,Prinsenbeek,2006,480,8600,10650,8011,"2,5%"
+842,891,Prinsenbeek,Prinsenbeek,2016,780,8600,10650,8011,"2,5%"
+843,107,Prinsenbeek,Prinsenbeek,2002,410,8600,10650,8011,"2,5%"
+844,667,Prinsenbeek,Prinsenbeek,2012,650,8600,10650,8011,"2,5%"
+845,387,Prinsenbeek,Prinsenbeek,2007,530,8600,10650,8011,"2,5%"
+846,1115,Prinsenbeek,Prinsenbeek,2020,880,8600,10650,8011,"2,5%"
+847,611,Prinsenbeek,Prinsenbeek,2011,620,8600,10650,8011,"2,5%"
+848,555,Prinsenbeek,Prinsenbeek,2010,590,8600,10650,8011,"2,5%"
+849,947,Prinsenbeek,Prinsenbeek,2017,810,8600,10650,8011,"2,5%"
+850,1059,Prinsenbeek,Prinsenbeek,2019,860,8600,10650,8011,"2,5%"
+851,723,Prinsenbeek,Prinsenbeek,2013,710,8600,10650,8011,"2,5%"
+852,219,Prinsenbeek,Prinsenbeek,2004,440,8600,10650,8011,"2,5%"
+853,499,Prinsenbeek,Prinsenbeek,2009,580,8600,10650,8011,"2,5%"
+854,275,Prinsenbeek,Prinsenbeek,2005,460,8600,10650,8011,"2,5%"
+855,1003,Prinsenbeek,Prinsenbeek,2018,810,8600,10650,8011,"2,5%"
+856,163,Prinsenbeek,Prinsenbeek,2003,420,8600,10650,8011,"2,5%"
+857,779,Prinsenbeek,Prinsenbeek,2014,730,8600,10650,8011,"2,5%"
+858,1171,Prinsenbeek,Prinsenbeek,2021,950,8600,10650,8011,"2,5%"
+859,51,Prinsenbeek,Prinsenbeek,2001,410,8600,10650,8011,"2,5%"
+860,835,Prinsenbeek,Prinsenbeek,2015,750,8600,10650,8011,"2,5%"
+861,642,Ruitersbos,Breda zuid,2012,220,1900,2415,1560,
+862,138,Ruitersbos,Breda zuid,2003,140,1900,2415,1560,
+863,922,Ruitersbos,Breda zuid,2017,310,1900,2415,1560,
+864,26,Ruitersbos,Breda zuid,2001,130,1900,2415,1560,
+865,250,Ruitersbos,Breda zuid,2005,150,1900,2415,1560,
+866,810,Ruitersbos,Breda zuid,2015,250,1900,2415,1560,
+867,698,Ruitersbos,Breda zuid,2013,230,1900,2415,1560,
+868,474,Ruitersbos,Breda zuid,2009,190,1900,2415,1560,
+869,978,Ruitersbos,Breda zuid,2018,330,1900,2415,1560,
+870,82,Ruitersbos,Breda zuid,2002,140,1900,2415,1560,
+871,418,Ruitersbos,Breda zuid,2008,180,1900,2415,1560,
+872,586,Ruitersbos,Breda zuid,2011,210,1900,2415,1560,
+873,530,Ruitersbos,Breda zuid,2010,200,1900,2415,1560,
+874,866,Ruitersbos,Breda zuid,2016,270,1900,2415,1560,
+875,754,Ruitersbos,Breda zuid,2014,220,1900,2415,1560,
+876,1034,Ruitersbos,Breda zuid,2019,340,1900,2415,1560,
+877,1146,Ruitersbos,Breda zuid,2021,360,1900,2415,1560,
+878,194,Ruitersbos,Breda zuid,2004,140,1900,2415,1560,
+879,1090,Ruitersbos,Breda zuid,2020,350,1900,2415,1560,
+880,306,Ruitersbos,Breda zuid,2006,160,1900,2415,1560,
+881,362,Ruitersbos,Breda zuid,2007,170,1900,2415,1560,
+882,507,Schorsmolen,Breda centrum,2010,230,3000,2905,2950,
+883,563,Schorsmolen,Breda centrum,2011,250,3000,2905,2950,
+884,171,Schorsmolen,Breda centrum,2004,190,3000,2905,2950,
+885,619,Schorsmolen,Breda centrum,2012,260,3000,2905,2950,
+886,451,Schorsmolen,Breda centrum,2009,220,3000,2905,2950,
+887,227,Schorsmolen,Breda centrum,2005,190,3000,2905,2950,
+888,955,Schorsmolen,Breda centrum,2018,360,3000,2905,2950,
+889,1123,Schorsmolen,Breda centrum,2021,430,3000,2905,2950,
+890,3,Schorsmolen,Breda centrum,2001,190,3000,2905,2950,
+891,115,Schorsmolen,Breda centrum,2003,190,3000,2905,2950,
+892,787,Schorsmolen,Breda centrum,2015,300,3000,2905,2950,
+893,843,Schorsmolen,Breda centrum,2016,310,3000,2905,2950,
+894,339,Schorsmolen,Breda centrum,2007,210,3000,2905,2950,
+895,395,Schorsmolen,Breda centrum,2008,230,3000,2905,2950,
+896,1067,Schorsmolen,Breda centrum,2020,410,3000,2905,2950,
+897,899,Schorsmolen,Breda centrum,2017,320,3000,2905,2950,
+898,59,Schorsmolen,Breda centrum,2002,190,3000,2905,2950,
+899,283,Schorsmolen,Breda centrum,2006,200,3000,2905,2950,
+900,675,Schorsmolen,Breda centrum,2013,270,3000,2905,2950,
+901,731,Schorsmolen,Breda centrum,2014,290,3000,2905,2950,
+902,1011,Schorsmolen,Breda centrum,2019,380,3000,2905,2950,
+903,687,Sportpark,Breda oost,2013,390,2500,3410,2480,
+904,295,Sportpark,Breda oost,2006,220,2500,3410,2480,
+905,799,Sportpark,Breda oost,2015,450,2500,3410,2480,
+906,1023,Sportpark,Breda oost,2019,510,2500,3410,2480,
+907,239,Sportpark,Breda oost,2005,200,2500,3410,2480,
+908,1079,Sportpark,Breda oost,2020,520,2500,3410,2480,
+909,463,Sportpark,Breda oost,2009,320,2500,3410,2480,
+910,183,Sportpark,Breda oost,2004,170,2500,3410,2480,
+911,967,Sportpark,Breda oost,2018,490,2500,3410,2480,
+912,351,Sportpark,Breda oost,2007,250,2500,3410,2480,
+913,743,Sportpark,Breda oost,2014,410,2500,3410,2480,
+914,519,Sportpark,Breda oost,2010,330,2500,3410,2480,
+915,15,Sportpark,Breda oost,2001,150,2500,3410,2480,
+916,71,Sportpark,Breda oost,2002,160,2500,3410,2480,
+917,575,Sportpark,Breda oost,2011,360,2500,3410,2480,
+918,127,Sportpark,Breda oost,2003,160,2500,3410,2480,
+919,407,Sportpark,Breda oost,2008,280,2500,3410,2480,
+920,1135,Sportpark,Breda oost,2021,560,2500,3410,2480,
+921,631,Sportpark,Breda oost,2012,350,2500,3410,2480,
+922,911,Sportpark,Breda oost,2017,460,2500,3410,2480,
+923,855,Sportpark,Breda oost,2016,450,2500,3410,2480,
+924,564,Station,Breda centrum,2011,220,2000,2080,2050,
+925,340,Station,Breda centrum,2007,150,2000,2080,2050,
+926,844,Station,Breda centrum,2016,370,2000,2080,2050,
+927,1068,Station,Breda centrum,2020,530,2000,2080,2050,
+928,508,Station,Breda centrum,2010,200,2000,2080,2050,
+929,788,Station,Breda centrum,2015,360,2000,2080,2050,
+930,116,Station,Breda centrum,2003,130,2000,2080,2050,
+931,60,Station,Breda centrum,2002,130,2000,2080,2050,
+932,956,Station,Breda centrum,2018,540,2000,2080,2050,
+933,172,Station,Breda centrum,2004,130,2000,2080,2050,
+934,4,Station,Breda centrum,2001,140,2000,2080,2050,
+935,900,Station,Breda centrum,2017,470,2000,2080,2050,
+936,452,Station,Breda centrum,2009,180,2000,2080,2050,
+937,228,Station,Breda centrum,2005,130,2000,2080,2050,
+938,1124,Station,Breda centrum,2021,570,2000,2080,2050,
+939,676,Station,Breda centrum,2013,290,2000,2080,2050,
+940,1012,Station,Breda centrum,2019,560,2000,2080,2050,
+941,732,Station,Breda centrum,2014,310,2000,2080,2050,
+942,620,Station,Breda centrum,2012,260,2000,2080,2050,
+943,284,Station,Breda centrum,2006,140,2000,2080,2050,
+944,396,Station,Breda centrum,2008,150,2000,2080,2050,
+945,986,Steenakker,Breda west,2018,330,400,240,430,
+946,818,Steenakker,Breda west,2015,190,400,240,430,
+947,202,Steenakker,Breda west,2004,100,400,240,430,
+948,314,Steenakker,Breda west,2006,140,400,240,430,
+949,426,Steenakker,Breda west,2008,170,400,240,430,
+950,370,Steenakker,Breda west,2007,150,400,240,430,
+951,482,Steenakker,Breda west,2009,190,400,240,430,
+952,258,Steenakker,Breda west,2005,120,400,240,430,
+953,538,Steenakker,Breda west,2010,190,400,240,430,
+954,930,Steenakker,Breda west,2017,220,400,240,430,
+955,650,Steenakker,Breda west,2012,190,400,240,430,
+956,146,Steenakker,Breda west,2003,80,400,240,430,
+957,594,Steenakker,Breda west,2011,190,400,240,430,
+958,1042,Steenakker,Breda west,2019,300,400,240,430,
+959,90,Steenakker,Breda west,2002,60,400,240,430,
+960,706,Steenakker,Breda west,2013,200,400,240,430,
+961,874,Steenakker,Breda west,2016,190,400,240,430,
+962,1154,Steenakker,Breda west,2021,300,400,240,430,
+963,34,Steenakker,Breda west,2001,40,400,240,430,
+964,1098,Steenakker,Breda west,2020,290,400,240,430,
+965,762,Steenakker,Breda west,2014,200,400,240,430,
+966,1061,Teteringen,Tetrigen,2019,610,5585,8285,5680,"1,0%"
+967,893,Teteringen,Tetrigen,2016,480,5585,8285,5680,"1,0%"
+968,1117,Teteringen,Tetrigen,2020,630,5585,8285,5680,"1,0%"
+969,445,Teteringen,Tetrigen,2008,310,5585,8285,5680,"1,0%"
+970,781,Teteringen,Tetrigen,2014,440,5585,8285,5680,"1,0%"
+971,277,Teteringen,Tetrigen,2005,260,5585,8285,5680,"1,0%"
+972,613,Teteringen,Tetrigen,2011,390,5585,8285,5680,"1,0%"
+973,837,Teteringen,Tetrigen,2015,460,5585,8285,5680,"1,0%"
+974,389,Teteringen,Tetrigen,2007,280,5585,8285,5680,"1,0%"
+975,1005,Teteringen,Tetrigen,2018,560,5585,8285,5680,"1,0%"
+976,109,Teteringen,Tetrigen,2002,220,5585,8285,5680,"1,0%"
+977,1173,Teteringen,Tetrigen,2021,680,5585,8285,5680,"1,0%"
+978,221,Teteringen,Tetrigen,2004,230,5585,8285,5680,"1,0%"
+979,333,Teteringen,Tetrigen,2006,270,5585,8285,5680,"1,0%"
+980,53,Teteringen,Tetrigen,2001,210,5585,8285,5680,"1,0%"
+981,949,Teteringen,Tetrigen,2017,510,5585,8285,5680,"1,0%"
+982,557,Teteringen,Tetrigen,2010,350,5585,8285,5680,"1,0%"
+983,669,Teteringen,Tetrigen,2012,400,5585,8285,5680,"1,0%"
+984,165,Teteringen,Tetrigen,2003,230,5585,8285,5680,"1,0%"
+985,725,Teteringen,Tetrigen,2013,420,5585,8285,5680,"1,0%"
+986,501,Teteringen,Tetrigen,2009,330,5585,8285,5680,"1,0%"
+987,813,Tuinzigt,Breda west,2015,630,5900,7650,6440,
+988,309,Tuinzigt,Breda west,2006,390,5900,7650,6440,
+989,1149,Tuinzigt,Breda west,2021,860,5900,7650,6440,
+990,869,Tuinzigt,Breda west,2016,630,5900,7650,6440,
+991,365,Tuinzigt,Breda west,2007,430,5900,7650,6440,
+992,85,Tuinzigt,Breda west,2002,310,5900,7650,6440,
+993,1037,Tuinzigt,Breda west,2019,800,5900,7650,6440,
+994,701,Tuinzigt,Breda west,2013,620,5900,7650,6440,
+995,757,Tuinzigt,Breda west,2014,620,5900,7650,6440,
+996,141,Tuinzigt,Breda west,2003,310,5900,7650,6440,
+997,253,Tuinzigt,Breda west,2005,340,5900,7650,6440,
+998,477,Tuinzigt,Breda west,2009,520,5900,7650,6440,
+999,925,Tuinzigt,Breda west,2017,660,5900,7650,6440,
+1000,29,Tuinzigt,Breda west,2001,290,5900,7650,6440,
+1001,589,Tuinzigt,Breda west,2011,550,5900,7650,6440,
+1002,421,Tuinzigt,Breda west,2008,470,5900,7650,6440,
+1003,981,Tuinzigt,Breda west,2018,720,5900,7650,6440,
+1004,645,Tuinzigt,Breda west,2012,590,5900,7650,6440,
+1005,1093,Tuinzigt,Breda west,2020,820,5900,7650,6440,
+1006,533,Tuinzigt,Breda west,2010,520,5900,7650,6440,
+1007,197,Tuinzigt,Breda west,2004,320,5900,7650,6440,
+1008,329,Ulvenhout,Uvelhout,2006,260,3800,4700,3190,"2,2%"
+1009,945,Ulvenhout,Uvelhout,2017,440,3800,4700,3190,"2,2%"
+1010,217,Ulvenhout,Uvelhout,2004,230,3800,4700,3190,"2,2%"
+1011,497,Ulvenhout,Uvelhout,2009,320,3800,4700,3190,"2,2%"
+1012,161,Ulvenhout,Uvelhout,2003,220,3800,4700,3190,"2,2%"
+1013,833,Ulvenhout,Uvelhout,2015,440,3800,4700,3190,"2,2%"
+1014,721,Ulvenhout,Uvelhout,2013,370,3800,4700,3190,"2,2%"
+1015,553,Ulvenhout,Uvelhout,2010,310,3800,4700,3190,"2,2%"
+1016,1001,Ulvenhout,Uvelhout,2018,460,3800,4700,3190,"2,2%"
+1017,1113,Ulvenhout,Uvelhout,2020,530,3800,4700,3190,"2,2%"
+1018,609,Ulvenhout,Uvelhout,2011,340,3800,4700,3190,"2,2%"
+1019,665,Ulvenhout,Uvelhout,2012,360,3800,4700,3190,"2,2%"
+1020,441,Ulvenhout,Uvelhout,2008,300,3800,4700,3190,"2,2%"
+1021,385,Ulvenhout,Uvelhout,2007,280,3800,4700,3190,"2,2%"
+1022,49,Ulvenhout,Uvelhout,2001,210,3800,4700,3190,"2,2%"
+1023,273,Ulvenhout,Uvelhout,2005,240,3800,4700,3190,"2,2%"
+1024,889,Ulvenhout,Uvelhout,2016,450,3800,4700,3190,"2,2%"
+1025,777,Ulvenhout,Uvelhout,2014,390,3800,4700,3190,"2,2%"
+1026,1057,Ulvenhout,Uvelhout,2019,480,3800,4700,3190,"2,2%"
+1027,105,Ulvenhout,Uvelhout,2002,220,3800,4700,3190,"2,2%"
+1028,1169,Ulvenhout,Uvelhout,2021,560,3800,4700,3190,"2,2%"
+1029,168,Valkenberg,Breda centrum,2004,180,1800,1670,1730,-0.80%
+1030,224,Valkenberg,Breda centrum,2005,200,1800,1670,1730,-0.80%
+1031,1120,Valkenberg,Breda centrum,2021,420,1800,1670,1730,-0.80%
+1032,280,Valkenberg,Breda centrum,2006,200,1800,1670,1730,-0.80%
+1033,1064,Valkenberg,Breda centrum,2020,390,1800,1670,1730,-0.80%
+1034,112,Valkenberg,Breda centrum,2003,180,1800,1670,1730,-0.80%
+1035,56,Valkenberg,Breda centrum,2002,190,1800,1670,1730,-0.80%
+1036,0,Valkenberg,Breda centrum,2001,180,1800,1670,1730,-0.80%
+1037,952,Valkenberg,Breda centrum,2018,340,1800,1670,1730,-0.80%
+1038,560,Valkenberg,Breda centrum,2011,270,1800,1670,1730,-0.80%
+1039,336,Valkenberg,Breda centrum,2007,210,1800,1670,1730,-0.80%
+1040,840,Valkenberg,Breda centrum,2016,310,1800,1670,1730,-0.80%
+1041,728,Valkenberg,Breda centrum,2014,290,1800,1670,1730,-0.80%
+1042,784,Valkenberg,Breda centrum,2015,310,1800,1670,1730,-0.80%
+1043,1008,Valkenberg,Breda centrum,2019,360,1800,1670,1730,-0.80%
+1044,448,Valkenberg,Breda centrum,2009,240,1800,1670,1730,-0.80%
+1045,504,Valkenberg,Breda centrum,2010,270,1800,1670,1730,-0.80%
+1046,616,Valkenberg,Breda centrum,2012,260,1800,1670,1730,-0.80%
+1047,392,Valkenberg,Breda centrum,2008,220,1800,1670,1730,-0.80%
+1048,896,Valkenberg,Breda centrum,2017,320,1800,1670,1730,-0.80%
+1049,672,Valkenberg,Breda centrum,2013,270,1800,1670,1730,-0.80%
+1050,166,Vuchtpolder,Tetrigen,2003,10,100,90,80,"0,0%"
+1051,950,Vuchtpolder,Tetrigen,2017,20,100,90,80,"0,0%"
+1052,894,Vuchtpolder,Tetrigen,2016,20,100,90,80,"0,0%"
+1053,1118,Vuchtpolder,Tetrigen,2020,20,100,90,80,"0,0%"
+1054,670,Vuchtpolder,Tetrigen,2012,20,100,90,80,"0,0%"
+1055,446,Vuchtpolder,Tetrigen,2008,10,100,90,80,"0,0%"
+1056,502,Vuchtpolder,Tetrigen,2009,10,100,90,80,"0,0%"
+1057,222,Vuchtpolder,Tetrigen,2004,10,100,90,80,"0,0%"
+1058,614,Vuchtpolder,Tetrigen,2011,20,100,90,80,"0,0%"
+1059,1174,Vuchtpolder,Tetrigen,2021,20,100,90,80,"0,0%"
+1060,110,Vuchtpolder,Tetrigen,2002,10,100,90,80,"0,0%"
+1061,726,Vuchtpolder,Tetrigen,2013,20,100,90,80,"0,0%"
+1062,558,Vuchtpolder,Tetrigen,2010,10,100,90,80,"0,0%"
+1063,278,Vuchtpolder,Tetrigen,2005,10,100,90,80,"0,0%"
+1064,1062,Vuchtpolder,Tetrigen,2019,20,100,90,80,"0,0%"
+1065,782,Vuchtpolder,Tetrigen,2014,20,100,90,80,"0,0%"
+1066,334,Vuchtpolder,Tetrigen,2006,10,100,90,80,"0,0%"
+1067,390,Vuchtpolder,Tetrigen,2007,10,100,90,80,"0,0%"
+1068,838,Vuchtpolder,Tetrigen,2015,20,100,90,80,"0,0%"
+1069,54,Vuchtpolder,Tetrigen,2001,0,100,90,80,"0,0%"
+1070,1006,Vuchtpolder,Tetrigen,2018,20,100,90,80,"0,0%"
+1071,1021,Waterdonken,Breda noord,2019,100,800,1345,930,7.10%
+1072,965,Waterdonken,Breda noord,2018,80,800,1345,930,7.10%
+1073,797,Waterdonken,Breda noord,2015,80,800,1345,930,7.10%
+1074,853,Waterdonken,Breda noord,2016,80,800,1345,930,7.10%
+1075,349,Waterdonken,Breda noord,2007,0,800,1345,930,7.10%
+1076,629,Waterdonken,Breda noord,2012,40,800,1345,930,7.10%
+1077,293,Waterdonken,Breda noord,2006,0,800,1345,930,7.10%
+1078,573,Waterdonken,Breda noord,2011,20,800,1345,930,7.10%
+1079,741,Waterdonken,Breda noord,2014,60,800,1345,930,7.10%
+1080,1133,Waterdonken,Breda noord,2021,100,800,1345,930,7.10%
+1081,1077,Waterdonken,Breda noord,2020,100,800,1345,930,7.10%
+1082,461,Waterdonken,Breda noord,2009,0,800,1345,930,7.10%
+1083,685,Waterdonken,Breda noord,2013,60,800,1345,930,7.10%
+1084,405,Waterdonken,Breda noord,2008,0,800,1345,930,7.10%
+1085,909,Waterdonken,Breda noord,2017,80,800,1345,930,7.10%
+1086,517,Waterdonken,Breda noord,2010,10,800,1345,930,7.10%
+1087,591,Westerpark,Breda west,2011,180,2700,3560,2570,-4.10%
+1088,703,Westerpark,Breda west,2013,180,2700,3560,2570,-4.10%
+1089,143,Westerpark,Breda west,2003,80,2700,3560,2570,-4.10%
+1090,31,Westerpark,Breda west,2001,60,2700,3560,2570,-4.10%
+1091,759,Westerpark,Breda west,2014,200,2700,3560,2570,-4.10%
+1092,647,Westerpark,Breda west,2012,190,2700,3560,2570,-4.10%
+1093,1151,Westerpark,Breda west,2021,310,2700,3560,2570,-4.10%
+1094,871,Westerpark,Breda west,2016,230,2700,3560,2570,-4.10%
+1095,927,Westerpark,Breda west,2017,250,2700,3560,2570,-4.10%
+1096,87,Westerpark,Breda west,2002,70,2700,3560,2570,-4.10%
+1097,1039,Westerpark,Breda west,2019,290,2700,3560,2570,-4.10%
+1098,255,Westerpark,Breda west,2005,90,2700,3560,2570,-4.10%
+1099,311,Westerpark,Breda west,2006,110,2700,3560,2570,-4.10%
+1100,367,Westerpark,Breda west,2007,120,2700,3560,2570,-4.10%
+1101,423,Westerpark,Breda west,2008,130,2700,3560,2570,-4.10%
+1102,983,Westerpark,Breda west,2018,260,2700,3560,2570,-4.10%
+1103,479,Westerpark,Breda west,2009,140,2700,3560,2570,-4.10%
+1104,1095,Westerpark,Breda west,2020,300,2700,3560,2570,-4.10%
+1105,815,Westerpark,Breda west,2015,220,2700,3560,2570,-4.10%
+1106,199,Westerpark,Breda west,2004,80,2700,3560,2570,-4.10%
+1107,535,Westerpark,Breda west,2010,170,2700,3560,2570,-4.10%
+1108,122,Wisselaar,Breda noord,2003,60,3300,4290,3170,
+1109,458,Wisselaar,Breda noord,2009,120,3300,4290,3170,
+1110,402,Wisselaar,Breda noord,2008,100,3300,4290,3170,
+1111,682,Wisselaar,Breda noord,2013,130,3300,4290,3170,
+1112,1074,Wisselaar,Breda noord,2020,230,3300,4290,3170,
+1113,66,Wisselaar,Breda noord,2002,60,3300,4290,3170,
+1114,1018,Wisselaar,Breda noord,2019,220,3300,4290,3170,
+1115,738,Wisselaar,Breda noord,2014,140,3300,4290,3170,
+1116,290,Wisselaar,Breda noord,2006,80,3300,4290,3170,
+1117,1130,Wisselaar,Breda noord,2021,250,3300,4290,3170,
+1118,906,Wisselaar,Breda noord,2017,180,3300,4290,3170,
+1119,570,Wisselaar,Breda noord,2011,120,3300,4290,3170,
+1120,850,Wisselaar,Breda noord,2016,160,3300,4290,3170,
+1121,346,Wisselaar,Breda noord,2007,90,3300,4290,3170,
+1122,962,Wisselaar,Breda noord,2018,200,3300,4290,3170,
+1123,514,Wisselaar,Breda noord,2010,110,3300,4290,3170,
+1124,626,Wisselaar,Breda noord,2012,120,3300,4290,3170,
+1125,794,Wisselaar,Breda noord,2015,170,3300,4290,3170,
+1126,10,Wisselaar,Breda noord,2001,60,3300,4290,3170,
+1127,234,Wisselaar,Breda noord,2005,60,3300,4290,3170,
+1128,178,Wisselaar,Breda noord,2004,60,3300,4290,3170,
+1129,749,Ypelaar,Breda zuid-oost,2014,390,4700,5570,4170,-5.70%
+1130,1029,Ypelaar,Breda zuid-oost,2019,490,4700,5570,4170,-5.70%
+1131,301,Ypelaar,Breda zuid-oost,2006,230,4700,5570,4170,-5.70%
+1132,357,Ypelaar,Breda zuid-oost,2007,250,4700,5570,4170,-5.70%
+1133,805,Ypelaar,Breda zuid-oost,2015,420,4700,5570,4170,-5.70%
+1134,21,Ypelaar,Breda zuid-oost,2001,190,4700,5570,4170,-5.70%
+1135,77,Ypelaar,Breda zuid-oost,2002,200,4700,5570,4170,-5.70%
+1136,413,Ypelaar,Breda zuid-oost,2008,280,4700,5570,4170,-5.70%
+1137,861,Ypelaar,Breda zuid-oost,2016,410,4700,5570,4170,-5.70%
+1138,693,Ypelaar,Breda zuid-oost,2013,370,4700,5570,4170,-5.70%
+1139,189,Ypelaar,Breda zuid-oost,2004,190,4700,5570,4170,-5.70%
+1140,245,Ypelaar,Breda zuid-oost,2005,210,4700,5570,4170,-5.70%
+1141,133,Ypelaar,Breda zuid-oost,2003,190,4700,5570,4170,-5.70%
+1142,917,Ypelaar,Breda zuid-oost,2017,420,4700,5570,4170,-5.70%
+1143,525,Ypelaar,Breda zuid-oost,2010,300,4700,5570,4170,-5.70%
+1144,973,Ypelaar,Breda zuid-oost,2018,470,4700,5570,4170,-5.70%
+1145,581,Ypelaar,Breda zuid-oost,2011,320,4700,5570,4170,-5.70%
+1146,469,Ypelaar,Breda zuid-oost,2009,290,4700,5570,4170,-5.70%
+1147,637,Ypelaar,Breda zuid-oost,2012,350,4700,5570,4170,-5.70%
+1148,1141,Ypelaar,Breda zuid-oost,2021,530,4700,5570,4170,-5.70%
+1149,1085,Ypelaar,Breda zuid-oost,2020,500,4700,5570,4170,-5.70%
+1150,800,Zandberg,Breda oost,2015,760,3900,5155,4020,2.00%
+1151,352,Zandberg,Breda oost,2007,520,3900,5155,4020,2.00%
+1152,968,Zandberg,Breda oost,2018,840,3900,5155,4020,2.00%
+1153,520,Zandberg,Breda oost,2010,620,3900,5155,4020,2.00%
+1154,16,Zandberg,Breda oost,2001,480,3900,5155,4020,2.00%
+1155,632,Zandberg,Breda oost,2012,690,3900,5155,4020,2.00%
+1156,688,Zandberg,Breda oost,2013,700,3900,5155,4020,2.00%
+1157,1024,Zandberg,Breda oost,2019,860,3900,5155,4020,2.00%
+1158,128,Zandberg,Breda oost,2003,470,3900,5155,4020,2.00%
+1159,856,Zandberg,Breda oost,2016,750,3900,5155,4020,2.00%
+1160,240,Zandberg,Breda oost,2005,490,3900,5155,4020,2.00%
+1161,1080,Zandberg,Breda oost,2020,900,3900,5155,4020,2.00%
+1162,296,Zandberg,Breda oost,2006,500,3900,5155,4020,2.00%
+1163,744,Zandberg,Breda oost,2014,720,3900,5155,4020,2.00%
+1164,464,Zandberg,Breda oost,2009,610,3900,5155,4020,2.00%
+1165,1136,Zandberg,Breda oost,2021,950,3900,5155,4020,2.00%
+1166,184,Zandberg,Breda oost,2004,470,3900,5155,4020,2.00%
+1167,408,Zandberg,Breda oost,2008,560,3900,5155,4020,2.00%
+1168,72,Zandberg,Breda oost,2002,450,3900,5155,4020,2.00%
+1169,912,Zandberg,Breda oost,2017,800,3900,5155,4020,2.00%
+1170,576,Zandberg,Breda oost,2011,660,3900,5155,4020,2.00%
