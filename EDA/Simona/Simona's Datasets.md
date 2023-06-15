@@ -1,9 +1,11 @@
 # Simona's Datasets
-Upload your datasets as `.zip` files to your folder in the repository, and list them here.
+Dataset uploaded as  `.zip` in GreenScape repository
+
 |Dataset|Source|Link|Why it's useful?|
 |-------|------|----|----------------|
-|livability score|-|-|-|
-|income recipients||||
-|population per neighborhood||||
-|total job growth||||
+|green score|BUasVPN|-|yes|
+|livability score|BUasVPN|-|yes|
+|income recipients|'Breda in Numbers'|https://breda.incijfers.nl/jive|yes|
+|population per neighborhood|'Breda in Numbers'|https://breda.incijfers.nl/jive|yes|
+|total job growth|'Breda in Numbers'|https://breda.incijfers.nl/jive|no|
 
