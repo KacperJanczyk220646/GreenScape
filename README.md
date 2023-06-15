@@ -5,7 +5,7 @@
 ### 1. What are the factors that might contribute to the green index score?​
 ### 2. Based on these factors, can we predict a green index score?​
 ## **3. AI Canvas**
-<img src="AI_canvas.png" alt= “AI_Canvas” width="1000" height="500">
+![Canvas](AI_Canvas.png)
 
 ## **4. Project's Roadmap**
 ![Roadmap](Roadmap_Image.png)
