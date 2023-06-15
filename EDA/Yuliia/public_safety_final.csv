@@ -1,0 +1,749 @@
+Year,Districts and neighbourhoods,Registered crimes (number)
+2012,Breda,16589
+2013,Breda,15155
+2014,Breda,13951
+2015,Breda,13191
+2016,Breda,12441
+2017,Breda,11175
+2018,Breda,10414
+2019,Breda,10960
+2020,Breda,10895
+2021,Breda,9878
+2022,Breda,10752
+2012,Breda centrum,4453
+2013,Breda centrum,4120
+2014,Breda centrum,3975
+2015,Breda centrum,3445
+2016,Breda centrum,3226
+2017,Breda centrum,2884
+2018,Breda centrum,2413
+2019,Breda centrum,2673
+2020,Breda centrum,2118
+2021,Breda centrum,1785
+2022,Breda centrum,2850
+2012,Valkenberg,356
+2013,Valkenberg,324
+2014,Valkenberg,385
+2015,Valkenberg,353
+2016,Valkenberg,348
+2017,Valkenberg,282
+2018,Valkenberg,233
+2019,Valkenberg,270
+2020,Valkenberg,234
+2021,Valkenberg,182
+2022,Valkenberg,213
+2012,Chassé,687
+2013,Chassé,634
+2014,Chassé,612
+2015,Chassé,547
+2016,Chassé,530
+2017,Chassé,493
+2018,Chassé,375
+2019,Chassé,362
+2020,Chassé,353
+2021,Chassé,298
+2022,Chassé,466
+2012,Fellenoord,201
+2013,Fellenoord,178
+2014,Fellenoord,209
+2015,Fellenoord,162
+2016,Fellenoord,131
+2017,Fellenoord,129
+2018,Fellenoord,95
+2019,Fellenoord,104
+2020,Fellenoord,94
+2021,Fellenoord,103
+2022,Fellenoord,131
+2012,Schorsmolen,462
+2013,Schorsmolen,410
+2014,Schorsmolen,407
+2015,Schorsmolen,365
+2016,Schorsmolen,362
+2017,Schorsmolen,342
+2018,Schorsmolen,343
+2019,Schorsmolen,316
+2020,Schorsmolen,276
+2021,Schorsmolen,262
+2022,Schorsmolen,388
+2012,Station,572
+2013,Station,474
+2014,Station,529
+2015,Station,324
+2016,Station,372
+2017,Station,350
+2018,Station,325
+2019,Station,410
+2020,Station,298
+2021,Station,311
+2022,Station,461
+2012,City,2175
+2013,City,2100
+2014,City,1833
+2015,City,1694
+2016,City,1483
+2017,City,1288
+2018,City,1042
+2019,City,1211
+2020,City,863
+2021,City,629
+2022,City,1191
+2012,Breda noord,2013
+2013,Breda noord,1844
+2014,Breda noord,1798
+2015,Breda noord,1813
+2016,Breda noord,1758
+2017,Breda noord,1541
+2018,Breda noord,1578
+2019,Breda noord,1645
+2020,Breda noord,1838
+2021,Breda noord,1676
+2022,Breda noord,1765
+2012,Belcrum,277
+2013,Belcrum,234
+2014,Belcrum,283
+2015,Belcrum,313
+2016,Belcrum,378
+2017,Belcrum,300
+2018,Belcrum,317
+2019,Belcrum,329
+2020,Belcrum,347
+2021,Belcrum,330
+2022,Belcrum,385
+2012,Doornbos-Linie,393
+2013,Doornbos-Linie,368
+2014,Doornbos-Linie,264
+2015,Doornbos-Linie,288
+2016,Doornbos-Linie,280
+2017,Doornbos-Linie,297
+2018,Doornbos-Linie,265
+2019,Doornbos-Linie,286
+2020,Doornbos-Linie,286
+2021,Doornbos-Linie,262
+2022,Doornbos-Linie,290
+2012,Biesdonk,470
+2013,Biesdonk,402
+2014,Biesdonk,417
+2015,Biesdonk,471
+2016,Biesdonk,391
+2017,Biesdonk,301
+2018,Biesdonk,313
+2019,Biesdonk,339
+2020,Biesdonk,424
+2021,Biesdonk,376
+2022,Biesdonk,408
+2012,Geeren-zuid,147
+2013,Geeren-zuid,161
+2014,Geeren-zuid,165
+2015,Geeren-zuid,152
+2016,Geeren-zuid,141
+2017,Geeren-zuid,136
+2018,Geeren-zuid,142
+2019,Geeren-zuid,161
+2020,Geeren-zuid,166
+2021,Geeren-zuid,174
+2022,Geeren-zuid,127
+2012,Wisselaar,166
+2013,Wisselaar,164
+2014,Wisselaar,153
+2015,Wisselaar,150
+2016,Wisselaar,165
+2017,Wisselaar,129
+2018,Wisselaar,128
+2019,Wisselaar,144
+2020,Wisselaar,170
+2021,Wisselaar,145
+2022,Wisselaar,126
+2012,Krogten,369
+2013,Krogten,370
+2014,Krogten,359
+2015,Krogten,286
+2016,Krogten,265
+2017,Krogten,253
+2018,Krogten,288
+2019,Krogten,239
+2020,Krogten,279
+2021,Krogten,258
+2022,Krogten,298
+2012,Geeren-noord,149
+2013,Geeren-noord,121
+2014,Geeren-noord,127
+2015,Geeren-noord,109
+2016,Geeren-noord,99
+2017,Geeren-noord,93
+2018,Geeren-noord,90
+2019,Geeren-noord,129
+2020,Geeren-noord,131
+2021,Geeren-noord,104
+2022,Geeren-noord,110
+2012,Waterdonken,42
+2013,Waterdonken,24
+2014,Waterdonken,30
+2015,Waterdonken,44
+2016,Waterdonken,39
+2017,Waterdonken,32
+2018,Waterdonken,35
+2019,Waterdonken,18
+2020,Waterdonken,35
+2021,Waterdonken,27
+2022,Waterdonken,21
+2012,Breda oost,1787
+2013,Breda oost,1651
+2014,Breda oost,1526
+2015,Breda oost,1471
+2016,Breda oost,1396
+2017,Breda oost,1237
+2018,Breda oost,1190
+2019,Breda oost,1197
+2020,Breda oost,1188
+2021,Breda oost,1115
+2022,Breda oost,1179
+2012,Brabantpark,746
+2013,Brabantpark,618
+2014,Brabantpark,611
+2015,Brabantpark,581
+2016,Brabantpark,511
+2017,Brabantpark,445
+2018,Brabantpark,423
+2019,Brabantpark,452
+2020,Brabantpark,479
+2021,Brabantpark,466
+2022,Brabantpark,432
+2012,Sportpark,338
+2013,Sportpark,382
+2014,Sportpark,362
+2015,Sportpark,299
+2016,Sportpark,297
+2017,Sportpark,231
+2018,Sportpark,216
+2019,Sportpark,208
+2020,Sportpark,197
+2021,Sportpark,189
+2022,Sportpark,230
+2012,Zandberg,379
+2013,Zandberg,353
+2014,Zandberg,311
+2015,Zandberg,321
+2016,Zandberg,318
+2017,Zandberg,258
+2018,Zandberg,237
+2019,Zandberg,268
+2020,Zandberg,241
+2021,Zandberg,196
+2022,Zandberg,213
+2012,Heusdenhout,233
+2013,Heusdenhout,200
+2014,Heusdenhout,168
+2015,Heusdenhout,205
+2016,Heusdenhout,181
+2017,Heusdenhout,168
+2018,Heusdenhout,185
+2019,Heusdenhout,163
+2020,Heusdenhout,174
+2021,Heusdenhout,160
+2022,Heusdenhout,199
+2012,Moleneind-oost,48
+2013,Moleneind-oost,49
+2014,Moleneind-oost,28
+2015,Moleneind-oost,25
+2016,Moleneind-oost,42
+2017,Moleneind-oost,52
+2018,Moleneind-oost,33
+2019,Moleneind-oost,26
+2020,Moleneind-oost,34
+2021,Moleneind-oost,29
+2022,Moleneind-oost,24
+2012,Hoogeind,43
+2013,Hoogeind,49
+2014,Hoogeind,46
+2015,Hoogeind,40
+2016,Hoogeind,47
+2017,Hoogeind,83
+2018,Hoogeind,96
+2019,Hoogeind,80
+2020,Hoogeind,63
+2021,Hoogeind,75
+2022,Hoogeind,81
+2012,Breda zuid-oost,1068
+2013,Breda zuid-oost,1042
+2014,Breda zuid-oost,1026
+2015,Breda zuid-oost,1003
+2016,Breda zuid-oost,929
+2017,Breda zuid-oost,881
+2018,Breda zuid-oost,764
+2019,Breda zuid-oost,850
+2020,Breda zuid-oost,840
+2021,Breda zuid-oost,843
+2022,Breda zuid-oost,750
+2012,Blauwe Kei,208
+2013,Blauwe Kei,211
+2014,Blauwe Kei,195
+2015,Blauwe Kei,217
+2016,Blauwe Kei,212
+2017,Blauwe Kei,161
+2018,Blauwe Kei,123
+2019,Blauwe Kei,154
+2020,Blauwe Kei,149
+2021,Blauwe Kei,144
+2022,Blauwe Kei,124
+2012,Ypelaar,330
+2013,Ypelaar,272
+2014,Ypelaar,310
+2015,Ypelaar,261
+2016,Ypelaar,257
+2017,Ypelaar,264
+2018,Ypelaar,268
+2019,Ypelaar,266
+2020,Ypelaar,262
+2021,Ypelaar,290
+2022,Ypelaar,265
+2012,Overakker,117
+2013,Overakker,143
+2014,Overakker,115
+2015,Overakker,97
+2016,Overakker,110
+2017,Overakker,119
+2018,Overakker,93
+2019,Overakker,124
+2020,Overakker,97
+2021,Overakker,73
+2022,Overakker,99
+2012,Ginneken,330
+2013,Ginneken,332
+2014,Ginneken,296
+2015,Ginneken,317
+2016,Ginneken,269
+2017,Ginneken,236
+2018,Ginneken,199
+2019,Ginneken,227
+2020,Ginneken,226
+2021,Ginneken,239
+2022,Ginneken,181
+2012,Mastbos,83
+2013,Mastbos,84
+2014,Mastbos,110
+2015,Mastbos,111
+2016,Mastbos,81
+2017,Mastbos,101
+2018,Mastbos,81
+2019,Mastbos,79
+2020,Mastbos,106
+2021,Mastbos,97
+2022,Mastbos,81
+2012,Breda zuid,752
+2013,Breda zuid,687
+2014,Breda zuid,583
+2015,Breda zuid,493
+2016,Breda zuid,517
+2017,Breda zuid,440
+2018,Breda zuid,361
+2019,Breda zuid,391
+2020,Breda zuid,441
+2021,Breda zuid,412
+2022,Breda zuid,371
+2012,Boeimeer,511
+2013,Boeimeer,456
+2014,Boeimeer,390
+2015,Boeimeer,327
+2016,Boeimeer,387
+2017,Boeimeer,282
+2018,Boeimeer,230
+2019,Boeimeer,249
+2020,Boeimeer,288
+2021,Boeimeer,238
+2022,Boeimeer,241
+2012,Ruitersbos,241
+2013,Ruitersbos,231
+2014,Ruitersbos,193
+2015,Ruitersbos,166
+2016,Ruitersbos,130
+2017,Ruitersbos,158
+2018,Ruitersbos,131
+2019,Ruitersbos,142
+2020,Ruitersbos,153
+2021,Ruitersbos,174
+2022,Ruitersbos,130
+2012,Breda west,3500
+2013,Breda west,2959
+2014,Breda west,2522
+2015,Breda west,2569
+2016,Breda west,2404
+2017,Breda west,2136
+2018,Breda west,2015
+2019,Breda west,2027
+2020,Breda west,2205
+2021,Breda west,2035
+2022,Breda west,2051
+2012,Haagpoort,189
+2013,Haagpoort,172
+2014,Haagpoort,126
+2015,Haagpoort,115
+2016,Haagpoort,105
+2017,Haagpoort,85
+2018,Haagpoort,99
+2019,Haagpoort,81
+2020,Haagpoort,119
+2021,Haagpoort,118
+2022,Haagpoort,125
+2012,Heuvel,695
+2013,Heuvel,506
+2014,Heuvel,566
+2015,Heuvel,556
+2016,Heuvel,518
+2017,Heuvel,479
+2018,Heuvel,440
+2019,Heuvel,400
+2020,Heuvel,457
+2021,Heuvel,423
+2022,Heuvel,421
+2012,Tuinzigt,762
+2013,Tuinzigt,753
+2014,Tuinzigt,618
+2015,Tuinzigt,570
+2016,Tuinzigt,548
+2017,Tuinzigt,498
+2018,Tuinzigt,429
+2019,Tuinzigt,495
+2020,Tuinzigt,437
+2021,Tuinzigt,402
+2022,Tuinzigt,482
+2012,Princenhage,816
+2013,Princenhage,574
+2014,Princenhage,406
+2015,Princenhage,452
+2016,Princenhage,410
+2017,Princenhage,321
+2018,Princenhage,336
+2019,Princenhage,351
+2020,Princenhage,400
+2021,Princenhage,280
+2022,Princenhage,302
+2012,Westerpark,159
+2013,Westerpark,151
+2014,Westerpark,125
+2015,Westerpark,127
+2016,Westerpark,124
+2017,Westerpark,119
+2018,Westerpark,85
+2019,Westerpark,99
+2020,Westerpark,104
+2021,Westerpark,109
+2022,Westerpark,125
+2012,Heilaar,330
+2013,Heilaar,278
+2014,Heilaar,230
+2015,Heilaar,206
+2016,Heilaar,224
+2017,Heilaar,183
+2018,Heilaar,187
+2019,Heilaar,205
+2020,Heilaar,194
+2021,Heilaar,115
+2022,Heilaar,131
+2012,Hazeldonk,273
+2013,Hazeldonk,215
+2014,Hazeldonk,175
+2015,Hazeldonk,181
+2016,Hazeldonk,162
+2017,Hazeldonk,161
+2018,Hazeldonk,124
+2019,Hazeldonk,136
+2020,Hazeldonk,229
+2021,Hazeldonk,279
+2022,Hazeldonk,213
+2012,Steenakker,120
+2013,Steenakker,166
+2014,Steenakker,169
+2015,Steenakker,263
+2016,Steenakker,219
+2017,Steenakker,175
+2018,Steenakker,202
+2019,Steenakker,160
+2020,Steenakker,154
+2021,Steenakker,171
+2022,Steenakker,133
+2012,Effen-Rith,88
+2013,Effen-Rith,64
+2014,Effen-Rith,58
+2015,Effen-Rith,51
+2016,Effen-Rith,49
+2017,Effen-Rith,54
+2018,Effen-Rith,40
+2019,Effen-Rith,40
+2020,Effen-Rith,51
+2021,Effen-Rith,65
+2022,Effen-Rith,44
+2012,Liesbos,68
+2013,Liesbos,80
+2014,Liesbos,49
+2015,Liesbos,48
+2016,Liesbos,45
+2017,Liesbos,61
+2018,Liesbos,73
+2019,Liesbos,60
+2020,Liesbos,60
+2021,Liesbos,73
+2022,Liesbos,75
+2012,Breda noord-west,1625
+2013,Breda noord-west,1602
+2014,Breda noord-west,1400
+2015,Breda noord-west,1366
+2016,Breda noord-west,1256
+2017,Breda noord-west,1214
+2018,Breda noord-west,1229
+2019,Breda noord-west,1313
+2020,Breda noord-west,1291
+2021,Breda noord-west,1082
+2022,Breda noord-west,950
+2012,Gageldonk,240
+2013,Gageldonk,211
+2014,Gageldonk,218
+2015,Gageldonk,203
+2016,Gageldonk,211
+2017,Gageldonk,184
+2018,Gageldonk,250
+2019,Gageldonk,178
+2020,Gageldonk,216
+2021,Gageldonk,160
+2022,Gageldonk,138
+2012,Kievitsloop,225
+2013,Kievitsloop,187
+2014,Kievitsloop,155
+2015,Kievitsloop,173
+2016,Kievitsloop,152
+2017,Kievitsloop,142
+2018,Kievitsloop,110
+2019,Kievitsloop,181
+2020,Kievitsloop,154
+2021,Kievitsloop,116
+2022,Kievitsloop,109
+2012,Kesteren,269
+2013,Kesteren,277
+2014,Kesteren,289
+2015,Kesteren,293
+2016,Kesteren,222
+2017,Kesteren,191
+2018,Kesteren,181
+2019,Kesteren,194
+2020,Kesteren,202
+2021,Kesteren,186
+2022,Kesteren,156
+2012,Muizenberg,182
+2013,Muizenberg,223
+2014,Muizenberg,157
+2015,Muizenberg,134
+2016,Muizenberg,109
+2017,Muizenberg,156
+2018,Muizenberg,116
+2019,Muizenberg,131
+2020,Muizenberg,147
+2021,Muizenberg,107
+2022,Muizenberg,97
+2012,Heksenwiel,251
+2013,Heksenwiel,253
+2014,Heksenwiel,171
+2015,Heksenwiel,162
+2016,Heksenwiel,208
+2017,Heksenwiel,152
+2018,Heksenwiel,149
+2019,Heksenwiel,133
+2020,Heksenwiel,162
+2021,Heksenwiel,135
+2022,Heksenwiel,99
+2012,Overkroeten,112
+2013,Overkroeten,113
+2014,Overkroeten,79
+2015,Overkroeten,94
+2016,Overkroeten,77
+2017,Overkroeten,77
+2018,Overkroeten,76
+2019,Overkroeten,70
+2020,Overkroeten,74
+2021,Overkroeten,54
+2022,Overkroeten,49
+2012,Kroeten,51
+2013,Kroeten,56
+2014,Kroeten,44
+2015,Kroeten,48
+2016,Kroeten,46
+2017,Kroeten,49
+2018,Kroeten,41
+2019,Kroeten,54
+2020,Kroeten,57
+2021,Kroeten,37
+2022,Kroeten,29
+2012,Emer,264
+2013,Emer,255
+2014,Emer,238
+2015,Emer,233
+2016,Emer,215
+2017,Emer,250
+2018,Emer,303
+2019,Emer,363
+2020,Emer,263
+2021,Emer,275
+2022,Emer,260
+2012,Hagebeemd,31
+2013,Hagebeemd,27
+2014,Hagebeemd,49
+2015,Hagebeemd,26
+2016,Hagebeemd,16
+2017,Hagebeemd,13
+2018,Hagebeemd,3
+2019,Hagebeemd,9
+2020,Hagebeemd,16
+2021,Hagebeemd,12
+2022,Hagebeemd,13
+2012,Bavel,353
+2013,Bavel,311
+2014,Bavel,270
+2015,Bavel,271
+2016,Bavel,266
+2017,Bavel,220
+2018,Bavel,207
+2019,Bavel,194
+2020,Bavel,227
+2021,Bavel,236
+2022,Bavel,241
+2012,Bavel,252
+2013,Bavel,211
+2014,Bavel,169
+2015,Bavel,163
+2016,Bavel,161
+2017,Bavel,130
+2018,Bavel,127
+2019,Bavel,100
+2020,Bavel,125
+2021,Bavel,142
+2022,Bavel,125
+2012,Nieuw Wolfslaar,44
+2013,Nieuw Wolfslaar,41
+2014,Nieuw Wolfslaar,60
+2015,Nieuw Wolfslaar,61
+2016,Nieuw Wolfslaar,60
+2017,Nieuw Wolfslaar,38
+2018,Nieuw Wolfslaar,40
+2019,Nieuw Wolfslaar,34
+2020,Nieuw Wolfslaar,53
+2021,Nieuw Wolfslaar,55
+2022,Nieuw Wolfslaar,46
+2012,Buitengebied Bavel,57
+2013,Buitengebied Bavel,59
+2014,Buitengebied Bavel,41
+2015,Buitengebied Bavel,47
+2016,Buitengebied Bavel,45
+2017,Buitengebied Bavel,52
+2018,Buitengebied Bavel,40
+2019,Buitengebied Bavel,60
+2020,Buitengebied Bavel,49
+2021,Buitengebied Bavel,39
+2022,Buitengebied Bavel,70
+2012,Ulvenhout,225
+2013,Ulvenhout,225
+2014,Ulvenhout,174
+2015,Ulvenhout,176
+2016,Ulvenhout,136
+2017,Ulvenhout,169
+2018,Ulvenhout,154
+2019,Ulvenhout,145
+2020,Ulvenhout,181
+2021,Ulvenhout,231
+2022,Ulvenhout,144
+2012,Ulvenhout,192
+2013,Ulvenhout,193
+2014,Ulvenhout,146
+2015,Ulvenhout,152
+2016,Ulvenhout,103
+2017,Ulvenhout,137
+2018,Ulvenhout,104
+2019,Ulvenhout,109
+2020,Ulvenhout,132
+2021,Ulvenhout,156
+2022,Ulvenhout,96
+2012,Buitengebied Ulvenhout,33
+2013,Buitengebied Ulvenhout,32
+2014,Buitengebied Ulvenhout,28
+2015,Buitengebied Ulvenhout,24
+2016,Buitengebied Ulvenhout,33
+2017,Buitengebied Ulvenhout,32
+2018,Buitengebied Ulvenhout,50
+2019,Buitengebied Ulvenhout,36
+2020,Buitengebied Ulvenhout,49
+2021,Buitengebied Ulvenhout,75
+2022,Buitengebied Ulvenhout,48
+2012,Prinsenbeek,478
+2013,Prinsenbeek,452
+2014,Prinsenbeek,415
+2015,Prinsenbeek,360
+2016,Prinsenbeek,309
+2017,Prinsenbeek,266
+2018,Prinsenbeek,314
+2019,Prinsenbeek,324
+2020,Prinsenbeek,343
+2021,Prinsenbeek,304
+2022,Prinsenbeek,271
+2012,Prinsenbeek,442
+2013,Prinsenbeek,383
+2014,Prinsenbeek,370
+2015,Prinsenbeek,317
+2016,Prinsenbeek,272
+2017,Prinsenbeek,236
+2018,Prinsenbeek,280
+2019,Prinsenbeek,287
+2020,Prinsenbeek,294
+2021,Prinsenbeek,264
+2022,Prinsenbeek,252
+2012,Buitengebied Prinsenbeek,36
+2013,Buitengebied Prinsenbeek,69
+2014,Buitengebied Prinsenbeek,45
+2015,Buitengebied Prinsenbeek,43
+2016,Buitengebied Prinsenbeek,37
+2017,Buitengebied Prinsenbeek,30
+2018,Buitengebied Prinsenbeek,34
+2019,Buitengebied Prinsenbeek,37
+2020,Buitengebied Prinsenbeek,49
+2021,Buitengebied Prinsenbeek,40
+2022,Buitengebied Prinsenbeek,19
+2012,Teteringen,335
+2013,Teteringen,262
+2014,Teteringen,262
+2015,Teteringen,224
+2016,Teteringen,244
+2017,Teteringen,187
+2018,Teteringen,189
+2019,Teteringen,201
+2020,Teteringen,223
+2021,Teteringen,159
+2022,Teteringen,180
+2012,Teteringen,304
+2013,Teteringen,228
+2014,Teteringen,244
+2015,Teteringen,197
+2016,Teteringen,226
+2017,Teteringen,172
+2018,Teteringen,169
+2019,Teteringen,185
+2020,Teteringen,212
+2021,Teteringen,148
+2022,Teteringen,165
+2012,Vuchtpolder,9
+2013,Vuchtpolder,11
+2014,Vuchtpolder,5
+2015,Vuchtpolder,9
+2016,Vuchtpolder,7
+2017,Vuchtpolder,2
+2018,Vuchtpolder,7
+2019,Vuchtpolder,10
+2020,Vuchtpolder,3
+2021,Vuchtpolder,2
+2022,Vuchtpolder,3
+2012,Buitengebied Teteringen,22
+2013,Buitengebied Teteringen,23
+2014,Buitengebied Teteringen,13
+2015,Buitengebied Teteringen,18
+2016,Buitengebied Teteringen,11
+2017,Buitengebied Teteringen,13
+2018,Buitengebied Teteringen,13
+2019,Buitengebied Teteringen,6
+2020,Buitengebied Teteringen,8
+2021,Buitengebied Teteringen,9
+2022,Buitengebied Teteringen,12
