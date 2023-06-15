@@ -1,4 +1,17 @@
-# GreenScape
-Github repository for Block D's project
+# GreenScape 
 
-In this repository, we will upload our contributions to this block's project as a team!
+
+## WEEK1: Data Pre-processing 
+- 
+
+## WEEK2: Data Modelling
+- 
+
+## WEEK3: Evaluation (& Iteration)
+- 
+
+## WEEK4: Deployment
+- 
+
+## WEEK5: Client Demonstration
+- 
