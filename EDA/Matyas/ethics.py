@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import Image
+import base64
 
 ethics_title = st.container()
 ethics_overview = st.container()
@@ -52,25 +52,33 @@ with ethics_explanation:
 
     with explanations:
         st.write('We believe that these core principles the DEDA framework is set out to ensure are synonymous with those of the ALTAI framework, even though the latter goes more in detail.')
-        st.write('Since our project is not concerned with Personal Data, or other forms of sensitive information, privacy and data governance is not extensive. It is meant to be a decision-making aid/tool which does not affect Human autonomy in any way whatsoever. The algorithm does not operate autonomously, and has miniscule chances of causing adverse effects.')
+        st.write('Since our project is not concerned with Personal Data, or other forms of sensitive information, privacy and data governance is not extensive.\n It is meant to be an open decision-making aid which does not affect human autonomy in any way whatsoever. The algorithm does not operate autonomously, and has miniscule chances of causing adverse effects. Integrity is not compromised, it is designed for efficiency by only including important aspects of life. It strives for inclusivity and justice by highlighting the change which would occur if low-income neighborhood would receive more greenery, or a higher salary.')
+
+
 
 def displayPDF(file):
-    # Display PDF using <embed> tag in st.markdown
-    st.markdown(f'<embed src="{file}" width="700" height="1000" type="application/pdf">', unsafe_allow_html=True)
+    """
+    DocString by ChatGPT
 
-displayPDF(ethics_file)
+    Display a PDF file within a Streamlit app.
 
-'''
-with st.container():
-    def displayPDF(file):
-        # Opening file from file path
-        with open(file, "rb") as f:
-            base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+    Parameters:
+        file (str): The file path to the PDF file.
+
+    Returns:
+        None
+    """
+    # Opening file from file path
+    with open(file, "rb") as f:
+        base64_pdf = base64.b64encode(f.read()).decode('utf-8')
 
     # Embedding PDF in HTML
-    pdf_display = F'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf"></iframe>'
+    pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf"></iframe>'
 
     # Displaying File
     st.markdown(pdf_display, unsafe_allow_html=True)
-    '''
 
+with st.container():
+    # Display PDF
+    ethics_file = 'ETHICS/LegalEthics_Final.pdf'
+    displayPDF(ethics_file)
