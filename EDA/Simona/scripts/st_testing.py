@@ -28,9 +28,13 @@ if file_content:
 
 
 def preprocess(df):
-    df = df.sort_values(by='Year', ascending=True)
+    df['Year'] = df['Year'].astype(str)
     df['date'] = pd.to_datetime(df['date'])
-    return df
+    df['months'] = df['date'].dt.month_name(locale='English')
+    df_sorted = df.sort_values(by='date', ascending=True)
+    df_sorted = df_sorted.groupby(by=['date', 'Year', 'months']).mean()
+    df_sorted.reset_index(inplace=True)
+    return df_sorted
 
 
 def scatterplot(df, x, y, title):
@@ -46,33 +50,48 @@ def scatterplot(df, x, y, title):
                      color="regions",
                      title=title)
     fig["layout"].pop("updatemenus")
-
     return fig
 
 
-def barplot(df, date):
+def barplot(df, y):
+    fig = px.bar(df, x='date', y=y, color='months',
+                 color_discrete_sequence=['blue'])
+    fig1 = px.bar(df, x='Year', y=y, color='Year',
+                  color_discrete_sequence=['blue'])
+
+    fig.update_xaxes(minor=dict(ticks="inside", showgrid=True))
+    fig1.update_xaxes(minor=dict(ticks="inside", showgrid=True))
+
+    fig.update_layout(template='plotly_dark')
+    fig1.update_layout(template='plotly_dark')
+    return fig, fig1
+
+
+'''def barplot(df, date):
     fig = px.bar(df, x=date, y='green_score')
     fig.update_xaxes(minor=dict(ticks="inside", showgrid=True))
 
     return fig
-
+'''
 
 df_sorted = preprocess(df_read)
-fig = scatterplot(df_sorted, 'livability_score_x', 'green_score',
-                  'Correlation between Livability Score and Green Score Index')
-fig1 = scatterplot(df_sorted, 'income', 'green_score',
-                   'Correlation between Income score and Gareen Score Index')
-fig2 = barplot(df_sorted, 'date')
-fig3 = barplot(df_sorted, 'Year')
+scatterplot_livability = scatterplot(df_sorted, 'livability_score_x', 'green_score',
+                                     'Correlation between Livability Score and Green Score Index')
+scatterplot_income = scatterplot(df_sorted, 'income', 'green_score',
+                                 'Correlation between Income score and Gareen Score Index')
+barplot_months, barplot_years = barplot(df_sorted, 'green_score')
 
 
-st.plotly_chart(fig, theme="streamlit", use_container_width=True)
-st.plotly_chart(fig1, theme="streamlit", use_container_width=True)
+st.plotly_chart(scatterplot_livability, theme="streamlit",
+                use_container_width=True)
+st.plotly_chart(scatterplot_income, theme="streamlit",
+                use_container_width=True)
 
 tab1, tab2 = st.tabs(['Months', 'Year'])
 with tab1:
     st.subheader("Monthly level")
-    st.plotly_chart(fig2, theme="streamlit", use_container_width=True)
+    st.plotly_chart(barplot_months, theme="streamlit",
+                    use_container_width=True)
 with tab2:
     st.subheader("Yearly level")
-    st.plotly_chart(fig3, theme="streamlit", use_container_width=True)
+    st.plotly_chart(barplot_years, theme="streamlit", use_container_width=True)
