@@ -5,6 +5,8 @@ ethics_title = st.container()
 ethics_overview = st.container()
 ethics_explanation = st.container()
 
+ethics_file = 'ETHICS/LegalEthics_Final.pdf'
+
 with ethics_title:
     st.title('Ethical and Legal Assessment')
     st.divider()
@@ -51,3 +53,24 @@ with ethics_explanation:
     with explanations:
         st.write('We believe that these core principles the DEDA framework is set out to ensure are synonymous with those of the ALTAI framework, even though the latter goes more in detail.')
         st.write('Since our project is not concerned with Personal Data, or other forms of sensitive information, privacy and data governance is not extensive. It is meant to be a decision-making aid/tool which does not affect Human autonomy in any way whatsoever. The algorithm does not operate autonomously, and has miniscule chances of causing adverse effects.')
+
+def displayPDF(file):
+    # Display PDF using <embed> tag in st.markdown
+    st.markdown(f'<embed src="{file}" width="700" height="1000" type="application/pdf">', unsafe_allow_html=True)
+
+displayPDF(ethics_file)
+
+'''
+with st.container():
+    def displayPDF(file):
+        # Opening file from file path
+        with open(file, "rb") as f:
+            base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+
+    # Embedding PDF in HTML
+    pdf_display = F'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf"></iframe>'
+
+    # Displaying File
+    st.markdown(pdf_display, unsafe_allow_html=True)
+    '''
+
