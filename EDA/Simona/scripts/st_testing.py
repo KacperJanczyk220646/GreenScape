@@ -3,6 +3,8 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 import plotly.graph_objects as go
+st.set_page_config(layout="wide")
+
 
 streamlit_path = 'EDA\Simona\scripts\st_testing.py'
 file_path = 'EDA/Simona/scripts/Preprocessed_Dataset.csv'
@@ -55,18 +57,26 @@ def scatterplot(df, x, y, title):
 
 
 def barplot(df, y):
-    # fig = px.bar(df, x='date', y=y, color='months')
-    fig = px.histogram(df, x="date", y=y, histfunc="avg",
-                       nbins=30, text_auto='.2f')
+    fig = px.bar(df, x='date', y=y, color='months')
     fig1 = px.bar(df, x='Year', y=y, color='Year')
-    fig.add_hline(y=df[y].mean(), line_dash="dot",
-                  annotation_text="Average green score of all time",
-                  annotation_position="bottom right")
 
     fig.update_xaxes(minor=dict(ticks="inside", showgrid=True))
     fig1.update_xaxes(minor=dict(ticks="inside", showgrid=True))
 
     return fig, fig1
+
+
+def histogram(df, y):
+    fig = px.histogram(df, x="date", y=y, histfunc="avg",
+                       nbins=30, text_auto='.2f')
+
+    fig.add_hline(y=df[y].mean(), line_dash="dot",
+                  annotation_text="Average green score of all time",
+                  annotation_position="bottom right")
+
+    fig.update_xaxes(minor=dict(ticks="inside", showgrid=True))
+
+    return fig
 
 
 def headmap(df):
@@ -84,28 +94,40 @@ scatterplot_income = scatterplot(df_sorted, 'income', 'green_score',
 scatterplot_public_nuisance = scatterplot(df_sorted, 'Registered nuisance (number)', 'green_score',
                                           'Correlation between Public Nuisance and Green Score Index')
 barplot_months, barplot_years = barplot(df_sorted, 'green_score')
+histogram_months = histogram(df_sorted, 'green_score')
+
 headmap_plot = headmap(df_sorted)
 
 
 tab1, tab2 = st.tabs(['Years', 'Months'])
+col1, col2 = st.columns(2)
+
 tab3, tab4, tab5 = st.tabs(['Livability', 'Income', 'Public Nuisance'])
+col3, col4 = st.columns(2)
+
 
 # Bar Chart 1
 
 with tab1:
     st.subheader("Yearly level")
-    st.plotly_chart(barplot_years, theme="streamlit")
+    st.plotly_chart(barplot_years, theme="streamlit", use_container_width=True)
+
 with tab2:
     st.subheader("Monthly level")
-    st.plotly_chart(barplot_months, theme="streamlit")
+    with col1:
+        st.plotly_chart(barplot_months, theme="streamlit")
+    with col2:
+        st.plotly_chart(histogram_months, theme="streamlit")
 
-with tab3:
-    st.plotly_chart(scatterplot_livability, theme="streamlit")
-
-with tab4:
-    st.plotly_chart(scatterplot_income, theme="streamlit")
-
-with tab5:
-    st.plotly_chart(scatterplot_public_nuisance, theme="streamlit")
-
-st.plotly_chart(headmap_plot, theme="streamlit")
+with col3:
+    with tab3:
+        st.plotly_chart(scatterplot_livability,
+                        theme="streamlit", use_container_width=True)
+        with tab4:
+            st.plotly_chart(scatterplot_income,
+                            theme="streamlit", use_container_width=True)
+        with tab5:
+            st.plotly_chart(scatterplot_public_nuisance,
+                            theme="streamlit", use_container_width=True)
+with col4:
+    st.plotly_chart(headmap_plot, theme="streamlit", use_container_width=True)
