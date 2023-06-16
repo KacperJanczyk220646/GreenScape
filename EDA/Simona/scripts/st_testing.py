@@ -67,12 +67,14 @@ def barplot(df, y):
     return fig, fig1
 
 
-'''def barplot(df, date):
-    fig = px.bar(df, x=date, y='green_score')
-    fig.update_xaxes(minor=dict(ticks="inside", showgrid=True))
-
+def headmap(df):
+    df_groupby = df.groupby(by='regions')[
+        ['green_score', 'income', 'livability_score_x', 'Registered nuisance (number)']].mean().reset_index()
+    fig = px.imshow(df_groupby.corr(), text_auto=True,
+                    color_continuous_scale=px.colors.sequential.Darkmint_r)
+    fig.update_layout(template='plotly_dark')
     return fig
-'''
+
 
 df_sorted = preprocess(df_read)
 scatterplot_livability = scatterplot(df_sorted, 'livability_score_x', 'green_score',
@@ -80,6 +82,7 @@ scatterplot_livability = scatterplot(df_sorted, 'livability_score_x', 'green_sco
 scatterplot_income = scatterplot(df_sorted, 'income', 'green_score',
                                  'Correlation between Income score and Gareen Score Index')
 barplot_months, barplot_years = barplot(df_sorted, 'green_score')
+headmap_plot = headmap(df_sorted)
 
 
 st.plotly_chart(scatterplot_livability, theme="streamlit",
@@ -87,7 +90,7 @@ st.plotly_chart(scatterplot_livability, theme="streamlit",
 st.plotly_chart(scatterplot_income, theme="streamlit",
                 use_container_width=True)
 
-tab1, tab2 = st.tabs(['Months', 'Year'])
+tab1, tab2, tab3 = st.tabs(['Months', 'Year', 'Headmap'])
 with tab1:
     st.subheader("Monthly level")
     st.plotly_chart(barplot_months, theme="streamlit",
@@ -95,3 +98,7 @@ with tab1:
 with tab2:
     st.subheader("Yearly level")
     st.plotly_chart(barplot_years, theme="streamlit", use_container_width=True)
+
+with tab3:
+    st.subheader('Headmap')
+    st.plotly_chart(headmap_plot, theme='streamlit', use_container_width=True)
