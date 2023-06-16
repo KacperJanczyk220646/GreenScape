@@ -4,8 +4,8 @@ import plotly.express as px
 import pandas as pd
 import plotly.graph_objects as go
 
-
-file_path = 'EDA/Simona/tests/Preprocessed_Dataset.csv'
+streamlit_path = 'EDA\Simona\scripts\st_testing.py'
+file_path = 'EDA/Simona/scripts/Preprocessed_Dataset.csv'
 
 
 def read_file_from_relative_path(file_path):
@@ -31,10 +31,11 @@ def preprocess(df):
     df['Year'] = df['Year'].astype(str)
     df['date'] = pd.to_datetime(df['date'])
     df['months'] = df['date'].dt.month_name(locale='English')
-    df_sorted = df.sort_values(by='date', ascending=True)
-    df_sorted = df_sorted.groupby(by=['date', 'Year', 'months']).mean()
-    df_sorted.reset_index(inplace=True)
-    return df_sorted
+    df = df.sort_values(by='date', ascending=True)
+    df = df.groupby(by=['date', 'Year', 'months',
+                    'Neighborhood', 'regions']).mean()
+    df.reset_index(inplace=True)
+    return df
 
 
 def scatterplot(df, x, y, title):
@@ -54,25 +55,24 @@ def scatterplot(df, x, y, title):
 
 
 def barplot(df, y):
-    fig = px.bar(df, x='date', y=y, color='months',
-                 color_discrete_sequence=['blue'])
-    fig1 = px.bar(df, x='Year', y=y, color='Year',
-                  color_discrete_sequence=['blue'])
+    # fig = px.bar(df, x='date', y=y, color='months')
+    fig = px.histogram(df, x="date", y=y, histfunc="avg",
+                       nbins=30, text_auto='.2f')
+    fig1 = px.bar(df, x='Year', y=y, color='Year')
+    fig.add_hline(y=df[y].mean(), line_dash="dot",
+                  annotation_text="Average green score of all time",
+                  annotation_position="bottom right")
 
     fig.update_xaxes(minor=dict(ticks="inside", showgrid=True))
     fig1.update_xaxes(minor=dict(ticks="inside", showgrid=True))
 
-    fig.update_layout(template='plotly_dark')
-    fig1.update_layout(template='plotly_dark')
     return fig, fig1
 
 
 def headmap(df):
     df_groupby = df.groupby(by='regions')[
         ['green_score', 'income', 'livability_score_x', 'Registered nuisance (number)']].mean().reset_index()
-    fig = px.imshow(df_groupby.corr(), text_auto=True,
-                    color_continuous_scale=px.colors.sequential.Darkmint_r)
-    fig.update_layout(template='plotly_dark')
+    fig = px.imshow(df_groupby.corr(), text_auto=True)
     return fig
 
 
@@ -80,25 +80,32 @@ df_sorted = preprocess(df_read)
 scatterplot_livability = scatterplot(df_sorted, 'livability_score_x', 'green_score',
                                      'Correlation between Livability Score and Green Score Index')
 scatterplot_income = scatterplot(df_sorted, 'income', 'green_score',
-                                 'Correlation between Income score and Gareen Score Index')
+                                 'Correlation between Income score and Green Score Index')
+scatterplot_public_nuisance = scatterplot(df_sorted, 'Registered nuisance (number)', 'green_score',
+                                          'Correlation between Public Nuisance and Green Score Index')
 barplot_months, barplot_years = barplot(df_sorted, 'green_score')
 headmap_plot = headmap(df_sorted)
 
 
-st.plotly_chart(scatterplot_livability, theme="streamlit",
-                use_container_width=True)
-st.plotly_chart(scatterplot_income, theme="streamlit",
-                use_container_width=True)
+tab1, tab2 = st.tabs(['Years', 'Months'])
+tab3, tab4, tab5 = st.tabs(['Livability', 'Income', 'Public Nuisance'])
 
-tab1, tab2, tab3 = st.tabs(['Months', 'Year', 'Headmap'])
+# Bar Chart 1
+
 with tab1:
-    st.subheader("Monthly level")
-    st.plotly_chart(barplot_months, theme="streamlit",
-                    use_container_width=True)
-with tab2:
     st.subheader("Yearly level")
-    st.plotly_chart(barplot_years, theme="streamlit", use_container_width=True)
+    st.plotly_chart(barplot_years, theme="streamlit")
+with tab2:
+    st.subheader("Monthly level")
+    st.plotly_chart(barplot_months, theme="streamlit")
 
 with tab3:
-    st.subheader('Headmap')
-    st.plotly_chart(headmap_plot, theme='streamlit', use_container_width=True)
+    st.plotly_chart(scatterplot_livability, theme="streamlit")
+
+with tab4:
+    st.plotly_chart(scatterplot_income, theme="streamlit")
+
+with tab5:
+    st.plotly_chart(scatterplot_public_nuisance, theme="streamlit")
+
+st.plotly_chart(headmap_plot, theme="streamlit")
