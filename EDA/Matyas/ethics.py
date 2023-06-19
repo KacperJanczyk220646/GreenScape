@@ -4,6 +4,7 @@ import base64
 ethics_title = st.container()
 ethics_overview = st.container()
 ethics_explanation = st.container()
+pdf_reader = st.container()
 
 ethics_file = 'ETHICS/LegalEthics_Final.pdf'
 
@@ -52,7 +53,7 @@ with ethics_explanation:
 
     with explanations:
         st.write('We believe that these core principles the DEDA framework is set out to ensure are synonymous with those of the ALTAI framework, even though the latter goes more in detail.')
-        st.write('Since our project is not concerned with Personal Data, or other forms of sensitive information, privacy and data governance is not extensive.\n It is meant to be an open decision-making aid which does not affect human autonomy in any way whatsoever. The algorithm does not operate autonomously, and has miniscule chances of causing adverse effects. Integrity is not compromised, it is designed for efficiency by only including important aspects of life. It strives for inclusivity and justice by highlighting the change which would occur if low-income neighborhood would receive more greenery, or a higher salary.')
+        st.write('Since our project is not concerned with Personal Data, or other forms of sensitive information, privacy and data governance is not extensive.\n It is meant to be an open decision-making aid which does not affect human autonomy in any way whatsoever. The algorithm does not operate autonomously, and has miniscule chances of causing adverse effects. Integrity is not compromised, it is designed for efficiency by only including important aspects of life. It strives for inclusivity and justice by highlighting the change which would occur if low-income neighborhoods would receive more greenery, or a higher salary.')
 
 
 
@@ -78,7 +79,7 @@ def displayPDF(file):
     # Displaying File
     st.markdown(pdf_display, unsafe_allow_html=True)
 
-with st.container():
+with pdf_reader:
     # Display PDF
     ethics_file = 'ETHICS/LegalEthics_Final.pdf'
     displayPDF(ethics_file)
