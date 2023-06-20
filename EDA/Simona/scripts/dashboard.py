@@ -6,6 +6,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 st.set_page_config(page_title='Exploritory Data Analysis', layout="wide")
+st.title('Exploritory Data Analysis')
 
 streamlit_path = 'EDA\Simona\scripts\dashboard.py'
 file_path = 'EDA/Simona/scripts/Preprocessed_Dataset.csv'
@@ -87,10 +88,11 @@ def headmap(df):
     return fig
 
 
-def line_chart_years(df, y):
-    fig = px.line(df, x="Year", y="green_score",
-                  title='Linechart on Yealy level')
-    fig.show()
+def linechart(df, y):
+    fig = px.line(df, x="Year", y=y)
+    fig.update_traces(textposition="bottom right")
+
+    return fig
 
 
 def pie_charts(df, regions):
@@ -110,6 +112,8 @@ def pie_charts(df, regions):
 
 
 df_sorted = preprocess(df_read)
+
+
 scatterplot_livability = scatterplot(df_sorted, 'livability_score_x', 'green_score',
                                      'Correlation between Livability Score and Green Score Index')
 scatterplot_income = scatterplot(df_sorted, 'income', 'green_score',
@@ -117,20 +121,51 @@ scatterplot_income = scatterplot(df_sorted, 'income', 'green_score',
 scatterplot_public_nuisance = scatterplot(df_sorted, 'Registered nuisance (number)', 'green_score',
                                           'Correlation between Public Nuisance and Green Score Index')
 barplot_months, barplot_years = barplot(df_sorted, 'green_score')
-linechart_years = line_chart_years(df_sorted, 'green_score')
 histogram_months = histogram(df_sorted, 'green_score')
 headmap_plot = headmap(df_sorted)
 pie_charts_plot = pie_charts(df_sorted, 'regions')
 
+df_groupby_years = df_sorted.groupby(by="Year").agg(avg_green_score=("green_score", 'mean'),
+                                                    avg_livability_score_x=(
+                                                        'livability_score_x', 'mean'),
+                                                    avg_total_houses=(
+                                                        'TotalHouses', 'mean'),
+                                                    avg_population=(
+                                                        'Population', 'mean'),
+                                                    avg_income=('income', 'mean')).round(2)
+df_groupby_months = df_sorted.groupby(by="months").agg(avg_green_score=("green_score", 'mean'),
+                                                       avg_livability_score_x=(
+                                                           'livability_score_x', 'mean'),
+                                                       avg_total_houses=(
+                                                           'TotalHouses', 'mean'),
+                                                       avg_population=(
+                                                           'Population', 'mean'),
+                                                       avg_income=('income', 'mean')).round(2)
+df_groupby_neighborhoods = df_sorted.groupby(by="Neighborhood").agg(avg_green_score=("green_score", 'mean'),
+                                                                    avg_livability_score_x=(
+                                                                        'livability_score_x', 'mean'),
+                                                                    avg_total_houses=(
+                                                                        'TotalHouses', 'mean'),
+                                                                    avg_population=(
+                                                                        'Population', 'mean'),
+                                                                    avg_income=('income', 'mean')).round(2)
+df_groupby_regions = df_sorted.groupby(by="regions").agg(avg_green_score=("green_score", 'mean'),
+                                                         avg_livability_score_x=(
+                                                             'livability_score_x', 'mean'),
+                                                         avg_total_houses=(
+                                                             'TotalHouses', 'mean'),
+                                                         avg_population=(
+                                                             'Population', 'mean'),
+                                                         avg_income=('income', 'mean')).round(2)
 
-df_groupby_months = df_sorted.groupby(by='months')[
-    'green_score', 'livability_score_x', 'TotalHouses', 'Population', 'income', 'Registered nuisance (number)'].mean()
-df_groupby_years = df_sorted.groupby(by='Year')[
-    'green_score', 'livability_score_x', 'TotalHouses', 'Population', 'income', 'Registered nuisance (number)'].mean()
-df_groupby_regions = df_sorted.groupby(by='regions')[
-    'green_score', 'livability_score_x', 'TotalHouses', 'Population', 'income', 'Registered nuisance (number)'].mean()
-df_groupby_neighborhoods = df_sorted.groupby(by='Neighborhood')[
-    'green_score', 'livability_score_x', 'TotalHouses', 'Population', 'income', 'Registered nuisance (number)'].mean()
+
+def reset_index(df):
+    df_reset_index = df.reset_index()
+    return df_reset_index
+
+
+df_reset_index = reset_index(df_groupby_years)
+linechart_years = linechart(df_reset_index, 'avg_green_score')
 
 
 dropdown_options = ['Months', 'Years']
@@ -169,14 +204,14 @@ with col3:
     st.plotly_chart(headmap_plot, theme="streamlit", use_container_width=True)
 with col4:
     dropdown_options1 = ['Years', 'Months', 'Regions', 'Neighborhoods']
-    cards = {'Years': round(df_groupby_years['green_score'], 2),
-             'Months': round(df_groupby_months['green_score'], 2),
-             'Regions': round(df_groupby_regions['green_score'], 2),
-             'Neighborhoods': round(df_groupby_neighborhoods['green_score'], 2)}
+    tables = {'Years': df_groupby_years['avg_green_score'],
+              'Months': df_groupby_months['avg_green_score'],
+              'Regions': df_groupby_regions['avg_green_score'],
+              'Neighborhoods': df_groupby_neighborhoods['avg_green_score']}
     selected_option = st.selectbox(
         'Select an option:', dropdown_options1, format_func=lambda x: x)
-    if selected_option in cards.keys():
+    if selected_option in tables.keys():
         st.write("Table for", selected_option)
-        st.dataframe(cards[selected_option], use_container_width=True)
+        st.dataframe(tables[selected_option], use_container_width=True)
     else:
         st.write("No table selected.")
