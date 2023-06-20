@@ -12,6 +12,7 @@ plotly = "^5.14.1"
 dash = "^2.10.2"
 pandas = "^2.0.2"
 sklearn = "^0.0.post5"
+sphinx = "^7.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
