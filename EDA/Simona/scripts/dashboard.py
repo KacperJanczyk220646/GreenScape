@@ -4,8 +4,8 @@ import plotly.express as px
 import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-st.set_page_config(layout="wide")
 
+st.set_page_config(page_title='Exploritory Data Analysis', layout="wide")
 
 streamlit_path = 'EDA\Simona\scripts\dashboard.py'
 file_path = 'EDA/Simona/scripts/Preprocessed_Dataset.csv'
@@ -41,34 +41,6 @@ def preprocess(df):
     return df
 
 
-def group_months(df):
-    df_groupby_months = df.groupby(by=['months'])['green_score',
-                                                  'livability_score_x', 'TotalHouses', 'Population', 'income', 'Registered nuisance (number)'].mean()
-
-    return df_groupby_months
-
-
-def group_years(df):
-    df_groupby_years = df.groupby(by='Year')['green_score',
-                                             'livability_score_x', 'TotalHouses', 'Population', 'income', 'Registered nuisance (number)'].mean()
-
-    return df_groupby_years
-
-
-def groupby_regions(df):
-    df_groupby_regions = df.groupby(by='regions')['green_score',
-                                                  'livability_score_x', 'TotalHouses', 'Population', 'income', 'Registered nuisance (number)'].mean()
-
-    return df_groupby_regions
-
-
-def groupby_neighborhoods(df):
-    df_groupby_neighborhoods = df.groupby(by='Neighborhood')['green_score',
-                                                             'livability_score_x', 'TotalHouses', 'Population', 'income', 'Registered nuisance (number)'].mean()
-
-    return df_groupby_neighborhoods
-
-
 def scatterplot(df, x, y, title):
     fig = px.scatter(df,
                      x=x,
@@ -99,7 +71,7 @@ def barplot(df, y):
 
 def histogram(df, y):
     fig = px.histogram(df, x="date", y=y, histfunc="avg",
-                       nbins=30, text_auto='.2f', title='Histogram on mothly leve')
+                       nbins=30, text_auto='.2f', title='Histogram on Mothly level')
     fig.add_hline(y=df[y].mean(), line_dash="dot",
                   annotation_text="Average green score of all time",
                   annotation_position="bottom right")
@@ -113,6 +85,12 @@ def headmap(df):
         ['green_score', 'income', 'livability_score_x', 'Registered nuisance (number)', 'Population']].mean().reset_index()
     fig = px.imshow(df_groupby.corr(), text_auto=True)
     return fig
+
+
+def line_chart_years(df, y):
+    fig = px.line(df, x="Year", y="green_score",
+                  title='Linechart on Yealy level')
+    fig.show()
 
 
 def pie_charts(df, regions):
@@ -139,28 +117,40 @@ scatterplot_income = scatterplot(df_sorted, 'income', 'green_score',
 scatterplot_public_nuisance = scatterplot(df_sorted, 'Registered nuisance (number)', 'green_score',
                                           'Correlation between Public Nuisance and Green Score Index')
 barplot_months, barplot_years = barplot(df_sorted, 'green_score')
+linechart_years = line_chart_years(df_sorted, 'green_score')
 histogram_months = histogram(df_sorted, 'green_score')
-
 headmap_plot = headmap(df_sorted)
 pie_charts_plot = pie_charts(df_sorted, 'regions')
 
-df_months = group_months(df_sorted)
-df_years = group_years(df_sorted)
-df_regions = groupby_regions(df_sorted)
-df_neighborhoods = groupby_neighborhoods(df_sorted)
 
-dropdown_options = ['Years', 'Months']
+df_groupby_months = df_sorted.groupby(by='months')[
+    'green_score', 'livability_score_x', 'TotalHouses', 'Population', 'income', 'Registered nuisance (number)'].mean()
+df_groupby_years = df_sorted.groupby(by='Year')[
+    'green_score', 'livability_score_x', 'TotalHouses', 'Population', 'income', 'Registered nuisance (number)'].mean()
+df_groupby_regions = df_sorted.groupby(by='regions')[
+    'green_score', 'livability_score_x', 'TotalHouses', 'Population', 'income', 'Registered nuisance (number)'].mean()
+df_groupby_neighborhoods = df_sorted.groupby(by='Neighborhood')[
+    'green_score', 'livability_score_x', 'TotalHouses', 'Population', 'income', 'Registered nuisance (number)'].mean()
+
+
+dropdown_options = ['Months', 'Years']
 selected_option = st.selectbox(
     'Select an option:', dropdown_options, format_func=lambda x: x)
 
 col1, col2 = st.columns(2)
-if selected_option == 'Years':
-    st.plotly_chart(barplot_years, theme='streamlit', use_container_width=True)
-elif selected_option == 'Months':
+if selected_option == 'Months':
     with col1:
         st.plotly_chart(barplot_months, theme='streamlit')
     with col2:
         st.plotly_chart(histogram_months, theme='streamlit')
+elif selected_option == 'Years':
+    with col1:
+        st.plotly_chart(barplot_years, theme='streamlit',
+                        use_container_width=True)
+    with col2:
+        st.plotly_chart(linechart_years, theme='streamlit',
+                        use_container_width=True)
+
 
 tab3, tab4, tab5 = st.tabs(['Livability', 'Income', 'Public Nuisance'])
 col3, col4 = st.columns(2)
@@ -176,16 +166,17 @@ with tab5:
                     theme="streamlit", use_container_width=True)
 
 with col3:
-    st.plotly_chart(headmap_plot, theme="streamlit")
-dropdown_options1 = ['Years', 'Months', 'Regions', 'Neighborhoods']
-tables = {'Years': df_years,
-          'Months': df_months,
-          'Regions': df_regions,
-          'Neighborhoods': df_neighborhoods}
-selected_option = st.selectbox(
-    'Select an option:', dropdown_options1, format_func=lambda x: x)
-if selected_option in tables.keys():
-    st.write("Table for", selected_option)
-    st.dataframe(tables[selected_option])
-else:
-    st.write("No table selected.")
+    st.plotly_chart(headmap_plot, theme="streamlit", use_container_width=True)
+with col4:
+    dropdown_options1 = ['Years', 'Months', 'Regions', 'Neighborhoods']
+    cards = {'Years': round(df_groupby_years['green_score'], 2),
+             'Months': round(df_groupby_months['green_score'], 2),
+             'Regions': round(df_groupby_regions['green_score'], 2),
+             'Neighborhoods': round(df_groupby_neighborhoods['green_score'], 2)}
+    selected_option = st.selectbox(
+        'Select an option:', dropdown_options1, format_func=lambda x: x)
+    if selected_option in cards.keys():
+        st.write("Table for", selected_option)
+        st.dataframe(cards[selected_option], use_container_width=True)
+    else:
+        st.write("No table selected.")
