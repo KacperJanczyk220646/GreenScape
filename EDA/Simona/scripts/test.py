@@ -1,87 +1,31 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
-
-st.set_page_config(
-    page_title='Streamlit Sample Dashboard Template',
-    page_icon='✅',
-    layout='wide'
-)
-
-st.markdown("## KPI First Row")
-
-# kpi 1
-
-kpi1, kpi2, kpi3 = st.columns(3)
-
-with kpi1:
-    st.markdown("**First KPI**")
-    number1 = 111
-    st.markdown(
-        f"<h1 style='text-align: center; color: red;'>{number1}</h1>", unsafe_allow_html=True)
-
-with kpi2:
-    st.markdown("**Second KPI**")
-    number2 = 222
-    st.markdown(
-        f"<h1 style='text-align: center; color: red;'>{number2}</h1>", unsafe_allow_html=True)
-
-with kpi3:
-    st.markdown("**Third KPI**")
-    number3 = 333
-    st.markdown(
-        f"<h1 style='text-align: center; color: red;'>{number3}</h1>", unsafe_allow_html=True)
-
-st.markdown("<hr/>", unsafe_allow_html=True)
+from dashboard import read_file_from_relative_path
 
 
-st.markdown("## KPI Second Row")
+def test_read_file_from_path():
+    # Test case 1: Existing file
+    file_path = 'path/to/existing_file.txt'
+    expected_content = "This is the content of the existing file."
+    assert dashboard.read_file_from_relative_path(
+        file_path) == expected_content, "Test case 1 failed."
 
-# kpi 1
+    # Test case 2: Non-existing file
+    file_path = 'path/to/non_existing_file.txt'
+    assert dash(file_path) is None, "Test case 2 failed."
 
-kpi01, kpi02, kpi03, kpi04, kpi05 = st.columns(5)
+    # Test case 3: Invalid file path
+    file_path = 'invalid/path/file.txt'
+    assert read_file_from_path(file_path) is None, "Test case 3 failed."
 
-with kpi01:
-    st.markdown("**Another 1st KPI**")
-    number1 = 111
-    st.markdown(
-        f"<h1 style='text-align: center; color: yellow;'>{number1}</h1>", unsafe_allow_html=True)
+    # Test case 4: Empty file
+    file_path = 'path/to/empty_file.txt'
+    expected_content = ""
+    assert read_file_from_path(
+        file_path) == expected_content, "Test case 4 failed."
 
-with kpi02:
-    st.markdown("**Another 1st KPI**")
-    number1 = 222
-    st.markdown(
-        f"<h1 style='text-align: center; color: yellow;'>{number1}</h1>", unsafe_allow_html=True)
+    # Add more test cases as needed
 
-with kpi03:
-    st.markdown("**Another 1st KPI**")
-    number1 = 555
-    st.markdown(
-        f"<h1 style='text-align: center; color: yellow;'>{number1}</h1>", unsafe_allow_html=True)
+    print("All test cases passed.")
 
-with kpi04:
-    st.markdown("**Another 1st KPI**")
-    number1 = 333
-    st.markdown(
-        f"<h1 style='text-align: center; color: yellow;'>{number1}</h1>", unsafe_allow_html=True)
 
-with kpi05:
-    st.markdown("**Another 1st KPI**")
-    number1 = 444
-    st.markdown(
-        f"<h1 style='text-align: center; color: yellow;'>{number1}</h1>", unsafe_allow_html=True)
-
-st.markdown("<hr/>", unsafe_allow_html=True)
-
-st.markdown("## Chart Layout")
-
-chart1, chart2 = st.columns(2)
-
-with chart1:
-    chart_data = pd.DataFrame(np.random.randn(20, 3), columns=['a', 'b', 'c'])
-    st.line_chart(chart_data)
-
-with chart2:
-    chart_data = pd.DataFrame(np.random.randn(
-        2000, 3), columns=['a', 'b', 'c'])
-    st.line_chart(chart_data)
+# Run the unit tests
+test_read_file_from_path()
