@@ -206,9 +206,9 @@ with tab5:
                     theme="streamlit", use_container_width=True)
 
 with col3:
+    st.subheader('Heatmap')
     st.plotly_chart(headmap_plot, theme="streamlit", use_container_width=True)
-    st.markdown('correlation matrix')
-
+    st.markdown('**_The heatmap is a graphical representation of data using colors to indicate the level of activity. Darker colors are used to indicate low activity and brighter colors to indicate high activity. Between green score and livability score there is moderate correlation as green score increases, the livability score decreases._**')
 with col4:
     dropdown_options1 = ['Years', 'Months', 'Regions', 'Neighborhoods']
     tables = {'Years': df_groupby_years['avg_green_score'],
@@ -219,10 +219,6 @@ with col4:
         'Select an option:', dropdown_options1, format_func=lambda x: x)
     if selected_option in tables.keys():
         st.write("Table for", selected_option)
-        st.markdown('correlation matrix')
-
-        st.markdown('text9')
-
         st.dataframe(tables[selected_option], use_container_width=True)
     else:
         st.write("No table selected.")
