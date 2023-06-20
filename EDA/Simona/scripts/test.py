@@ -43,9 +43,3 @@ def check_preprocessing(df):
     if type(df['Year']) == object:
         print('correct dtype')
     if type(df['date']) == datetime32:
-        
-
-    
-def check_dtypes(df):
-
-    

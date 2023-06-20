@@ -174,11 +174,13 @@ selected_option = st.selectbox(
 
 col1, col2 = st.columns(2)
 if selected_option == 'Months':
+    st.markdown('**_The green score index is displayed on both charts on a monthly basis. The highest average green score for all months was recorded between September and October 2017 - 39.94 and the lowest was recorded in September 2015 - 16.72. As a result, the average green score for all the months was approximately 27._**')
     with col1:
         st.plotly_chart(barplot_months, theme='streamlit')
     with col2:
         st.plotly_chart(histogram_months, theme='streamlit')
 elif selected_option == 'Years':
+    st.markdown('**_The green score index is displayed on both charts on a yearly basis. The highest average green score for all years was recorded on 2015 - 28.12 and the lowest was recorded on 2018 - 23.5._**')
     with col1:
         st.plotly_chart(barplot_years, theme='streamlit',
                         use_container_width=True)
@@ -191,17 +193,22 @@ tab3, tab4, tab5 = st.tabs(['Livability', 'Income', 'Public Nuisance'])
 col3, col4 = st.columns(2)
 
 with tab3:
+    st.markdown('**_The scatter plot depicts the relationships between the livability score and the green score for all regions in Breda for the period of 2014 to 2018 according to the size of the dots indicating the population for all regions in Breda. As can be seen in the graph, the green score is indicated on the Y axis, while the livability is represented on the X axis._**')
     st.plotly_chart(scatterplot_livability,
                     theme="streamlit", use_container_width=True)
 with tab4:
+    st.markdown('**_The scatter plot depicts the relationships between the income and the green score for all regions in Breda for the period of 2014 to 2018 according to the size of the dots indicating the population for all regions in Breda. As can be seen in the graph, the green score is indicated on the Y axis, while the income is represented on the X axis._**')
     st.plotly_chart(scatterplot_income,
                     theme="streamlit", use_container_width=True)
 with tab5:
+    st.markdown('**_The scatter plot depicts the relationships between the registered public nuisance and the green score for all regions in Breda for the period of 2014 to 2018 according to the size of the dots indicating the population for all regions in Breda. As can be seen in the graph, the green score is indicated on the Y axis, while the registered public nuisance is represented on the X axis._**')
     st.plotly_chart(scatterplot_public_nuisance,
                     theme="streamlit", use_container_width=True)
 
 with col3:
     st.plotly_chart(headmap_plot, theme="streamlit", use_container_width=True)
+    st.markdown('correlation matrix')
+
 with col4:
     dropdown_options1 = ['Years', 'Months', 'Regions', 'Neighborhoods']
     tables = {'Years': df_groupby_years['avg_green_score'],
@@ -212,6 +219,10 @@ with col4:
         'Select an option:', dropdown_options1, format_func=lambda x: x)
     if selected_option in tables.keys():
         st.write("Table for", selected_option)
+        st.markdown('correlation matrix')
+
+        st.markdown('text9')
+
         st.dataframe(tables[selected_option], use_container_width=True)
     else:
         st.write("No table selected.")
