@@ -56,7 +56,6 @@ with ethics_explanation:
         st.write('Since our project is not concerned with Personal Data, or other forms of sensitive information, privacy and data governance is not extensive.\n It is meant to be an open decision-making aid which does not affect human autonomy in any way whatsoever. The algorithm does not operate autonomously, and has miniscule chances of causing adverse effects. Integrity is not compromised, it is designed for efficiency by only including important aspects of life. It strives for inclusivity and justice by highlighting the change which would occur if low-income neighborhoods would receive more greenery, or a higher salary.')
 
 
-
 def displayPDF(file):
     """
     DocString by ChatGPT
@@ -68,6 +67,10 @@ def displayPDF(file):
 
     Returns:
         None
+    
+    Usage: display_PDF(file) --> embeds selected PDF in a PDF-reader on streamlit page.
+
+    
     """
     # Opening file from file path
     with open(file, "rb") as f:
@@ -76,8 +79,10 @@ def displayPDF(file):
     # Embedding PDF in HTML
     pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf"></iframe>'
 
+
     # Displaying File
     st.markdown(pdf_display, unsafe_allow_html=True)
+
 
 with pdf_reader:
     # Display PDF
