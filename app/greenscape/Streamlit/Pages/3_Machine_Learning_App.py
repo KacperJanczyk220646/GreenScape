@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.model_selection import train_test_split
 
-tab1, tab2= st.tabs(["ML Lifecycle", "ML App Demo"])
+tab1, tab2 = st.tabs(["ML Lifecycle", "ML App Demo"])
 
 with tab1:
     # Problem Definition
@@ -45,22 +45,22 @@ with tab2:
     def load_data():
         """
         Load the dataframe from a CSV file.
-        
+
         Returns:
             pd.DataFrame: The loaded dataframe.
         """
-        df = pd.read_csv('C:/Users/kacpe/Documents/2022-23d-1fcmgt-reg-ai-01-KacperJanczyk220646/Deployment/final_ML.csv')
+        df = pd.read_csv('app/greenscape/Streamlit/Data/final_ML.csv')
         return df
 
     @st.cache_data
     def train_model(X_train, y_train):
         """
         Train the Random Forest model using the provided training data.
-        
+
         Args:
             X_train (pd.DataFrame): The features of the training data.
             y_train (pd.Series): The target variable of the training data.
-        
+
         Returns:
             RandomForestRegressor: The trained Random Forest model.
         """
@@ -71,11 +71,11 @@ with tab2:
     def predict_score(model, new_data):
         """
         Predict the green score using the trained model and new data.
-        
+
         Args:
             model (RandomForestRegressor): The trained Random Forest model.
             new_data (pd.DataFrame): The new data for prediction.
-        
+
         Returns:
             float: The predicted green score.
         """
@@ -86,39 +86,54 @@ with tab2:
         Create a Streamlit app for green score prediction.
         """
         st.title("Green Score Prediction")
-        
+
         # Load the dataframe
         df = load_data()
 
         # Select the features and target variable
-        features = ['reg_nuisance', 'year', 'livability_score', 'houses_amount', 'population', 'income', 'total_job_growth', 'electricity_cons', 'gas_cons', 'co2_emi', 'neighborhood_encoded']
+        features = ['reg_nuisance', 'year', 'livability_score', 'houses_amount', 'population', 'income',
+                    'total_job_growth', 'electricity_cons', 'gas_cons', 'co2_emi', 'neighborhood_encoded']
         target = 'green_score'
 
         # Split the dataset into training and testing sets
-        X_train, X_test, y_train, y_test = train_test_split(df[features], df[target], test_size=0.2, random_state=42)
+        X_train, X_test, y_train, y_test = train_test_split(
+            df[features], df[target], test_size=0.2, random_state=42)
 
         # Train the model
         model = train_model(X_train, y_train)
 
         # Create a selectbox for neighborhood_encoded
-        neighborhood_mapping = df[['neighborhood_encoded', 'neighborhood_name']].drop_duplicates()
-        neighborhood_values = neighborhood_mapping['neighborhood_encoded'].unique()
-        selected_neighborhood_encoded = st.selectbox("Select neighborhood", neighborhood_values, format_func=lambda value: neighborhood_mapping.loc[neighborhood_mapping['neighborhood_encoded'] == value, 'neighborhood_name'].iloc[0])
+        neighborhood_mapping = df[[
+            'neighborhood_encoded', 'neighborhood_name']].drop_duplicates()
+        neighborhood_values = neighborhood_mapping['neighborhood_encoded'].unique(
+        )
+        selected_neighborhood_encoded = st.selectbox("Select neighborhood", neighborhood_values, format_func=lambda value:
+                                                     neighborhood_mapping.loc[neighborhood_mapping['neighborhood_encoded'] == value, 'neighborhood_name'].iloc[0])
 
         # Get the corresponding neighborhood_name for the selected neighborhood_encoded
-        selected_neighborhood_name = neighborhood_mapping.loc[neighborhood_mapping['neighborhood_encoded'] == selected_neighborhood_encoded, 'neighborhood_name'].iloc[0]
-        
+        selected_neighborhood_name = neighborhood_mapping.loc[neighborhood_mapping[
+            'neighborhood_encoded'] == selected_neighborhood_encoded, 'neighborhood_name'].iloc[0]
+
         # Create sliders for the features
-        reg_nuisance = st.slider("Registered nuisance (number)", min_value=0.0, max_value=1000.0, value=0.0)
+        reg_nuisance = st.slider(
+            "Registered nuisance (number)", min_value=0.0, max_value=1000.0, value=0.0)
         year = st.slider("Year", min_value=2000.0, max_value=2050.0, value=0.0)
-        livability_score = st.slider("Livability Score", min_value=0.0, max_value=10.0, value=0.0)
-        houses_amount = st.slider("Amount of houses (In whole Breda)", min_value=0.0, max_value=200000.0, value=0.0)
-        population = st.slider("Number of Population (per neighborhood)", min_value=0.0, max_value=50000.0, value=0.0)
-        income = st.slider("Income (in Euros)", min_value=0.0, max_value=10000.0, value=0.0)
-        total_job_growth = st.slider("Job Growth (in percentage)", min_value=-100.0, max_value=100.0, value=0.0)
-        electricity_cons = st.slider("Total Electricity Consuption (all homes, kWh)", min_value=0.0, max_value=5000.0, value=0.0)
-        gas_cons = st.slider("Gas consuption (all homes, cubic meters)", min_value=0.0, max_value=5000.0, value=0.0)
-        co2_emi = st.slider("CO2 emissions (from homes, in tonnes)", min_value=0.0, max_value=500000.0, value=0.0)
+        livability_score = st.slider(
+            "Livability Score", min_value=0.0, max_value=10.0, value=0.0)
+        houses_amount = st.slider(
+            "Amount of houses (In whole Breda)", min_value=0.0, max_value=200000.0, value=0.0)
+        population = st.slider("Number of Population (per neighborhood)",
+                               min_value=0.0, max_value=50000.0, value=0.0)
+        income = st.slider("Income (in Euros)", min_value=0.0,
+                           max_value=10000.0, value=0.0)
+        total_job_growth = st.slider(
+            "Job Growth (in percentage)", min_value=-100.0, max_value=100.0, value=0.0)
+        electricity_cons = st.slider(
+            "Total Electricity Consuption (all homes, kWh)", min_value=0.0, max_value=5000.0, value=0.0)
+        gas_cons = st.slider("Gas consuption (all homes, cubic meters)",
+                             min_value=0.0, max_value=5000.0, value=0.0)
+        co2_emi = st.slider("CO2 emissions (from homes, in tonnes)",
+                            min_value=0.0, max_value=500000.0, value=0.0)
 
         # Create a dataframe with the new values
         new_data = pd.DataFrame({
@@ -139,7 +154,8 @@ with tab2:
         predicted_score = predict_score(model, new_data)
         formatted_score = f"{round(predicted_score, 2)}%"
         styled_score = f'<span style="color: LightGreen; font-size:35px;">{formatted_score}</span>'
-        st.subheader(f"Predicted green score for {selected_neighborhood_name}:")
+        st.subheader(
+            f"Predicted green score for {selected_neighborhood_name}:")
         st.markdown(styled_score, unsafe_allow_html=True)
 
         # Make predictions on the test set
