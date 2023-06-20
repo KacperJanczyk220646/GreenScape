@@ -23,11 +23,12 @@ def main():
     st.title("Project for improving Green score in Breda (GreenScape)")
 
     # Display image
-    image1 = Image.open("C:/Users/kacpe/Documents/GreenScape-1/app/greenscape/Streamlit/Data/park.png")
+    image1 = Image.open("app/greenscape/Streamlit/Data/park.png")
     st.image(image1)
 
     # Create tabs
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["Business Understanding", "AI Canvas", "Roadmap", "Team members", "Conclusion"])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(
+        ["Business Understanding", "AI Canvas", "Roadmap", "Team members", "Conclusion"])
 
     with tab1:
         st.header("Business Understanding")
@@ -38,12 +39,12 @@ def main():
 
     with tab2:
         st.header("AI Canvas")
-        image2 = Image.open("C:/Users/kacpe/Documents/GreenScape-1/app/greenscape/Streamlit/Data/AI_Canvas.png")
+        image2 = Image.open("app/greenscape/Streamlit/Data/AI_Canvas.png")
         st.image(image2)
 
     with tab3:
         st.header("Project's Roadmap")
-        image3 = Image.open("C:/Users/kacpe/Documents/GreenScape-1/app/greenscape/Streamlit/Data/Readmap_Image.png")
+        image3 = Image.open("app/greenscape/Streamlit/Data/Roadmap_Image.png")
         st.image(image3)
         st.subheader("Week 4: Business & Data Understanding")
         business_steps = [
@@ -118,10 +119,10 @@ def main():
         st.markdown(f"5. {deployment_steps[4]}")
         st.markdown(f"6. {deployment_steps[5]}")
 
-
     with tab4:
         st.header("Our team")
-        image4 = Image.open("C:/Users/kacpe/Documents/GreenScape-1/app/greenscape/Streamlit/Data/Our_team.png")
+        image4 = Image.open(
+            "app/greenscape/Streamlit/Data/Our_team.png")
         st.image(image4, width=800)
 
     with tab5:

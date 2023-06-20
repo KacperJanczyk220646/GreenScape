@@ -9,7 +9,7 @@ st.set_page_config(page_title='Exploritory Data Analysis', layout="wide")
 st.title('Exploritory Data Analysis')
 
 streamlit_path = 'C:/Users/kacpe/Documents/GreenScape-1/EDA/Simona/scripts/dashboard.py'
-file_path = 'C:/Users/kacpe/Documents/GreenScape-1/EDA/Simona/scripts/Preprocessed_Dataset.csv'
+file_path = 'EDA/Simona/scripts/Preprocessed_Dataset.csv'
 
 
 def read_file_from_relative_path(file_path):

@@ -6,10 +6,13 @@ import pandas as pd
 
 # Set the title and subheaders for the Streamlit application
 st.title("Green Index Score Map - distribution within Gemeente Breda")
-st.subheader('This map represents green index score points for individual geographical coordinates on the map of Breda.')
+st.subheader(
+    'This map represents green index score points for individual geographical coordinates on the map of Breda.')
 st.subheader('This map was created using Folium library in Python!')
 
 # Function to load data from a CSV file and return it as a DataFrame
+
+
 @st.cache_data
 def load_data(file_path):
     """
@@ -25,6 +28,8 @@ def load_data(file_path):
     return merged_df
 
 # Function to create a folium map with markers representing neighborhoods and their information
+
+
 def create_map(filtered_df, zoom_level):
     """
     Creates a folium map with markers representing neighborhoods and their information.
@@ -67,7 +72,8 @@ def create_map(filtered_df, zoom_level):
         folium.Marker(
             location=[row['latitude'], row['longitude']],
             popup=f"Neighborhood: {row['neighborhood_name']}<br>Population: {row['Population']}<br>Total Houses: {row['TotalHouses']}<br>Date of measurement: {row['date']}",
-            icon=folium.Icon(color='green' if row['green_score'] >= 25 else 'red')
+            icon=folium.Icon(
+                color='green' if row['green_score'] >= 25 else 'red')
         ).add_to(marker_cluster)
 
     # Add layer control and geocoder to the map
@@ -77,12 +83,14 @@ def create_map(filtered_df, zoom_level):
     return map_breda
 
 # Main function that runs the Streamlit application
+
+
 def main():
     """
     The main function that runs the Streamlit application.
     """
     # Path to the CSV file containing the data
-    file_path = 'C:/Users/kacpe/Documents/2022-23d-1fcmgt-reg-ai-01-KacperJanczyk220646/usecase/greenlivability_final.csv'
+    file_path = 'EDA/Kacper/greenlivability_final.csv'
     merged_df = load_data(file_path)
 
     # Create a sidebar with map options
@@ -96,13 +104,15 @@ def main():
     filtered_df = merged_df[merged_df['year'] == selected_year]
 
     # Slider to adjust the zoom level of the map
-    zoom_level = st.sidebar.slider("Zoom Level", min_value=1, max_value=18, value=12)
+    zoom_level = st.sidebar.slider(
+        "Zoom Level", min_value=1, max_value=18, value=12)
 
     # Create the map using the filtered data and zoom level
     map_breda = create_map(filtered_df, zoom_level)
 
     # Display the map in the Streamlit app
     st_folium.folium_static(map_breda)
+
 
 if __name__ == '__main__':
     main()
