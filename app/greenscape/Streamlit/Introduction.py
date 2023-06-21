@@ -27,22 +27,110 @@ def main():
     st.image(image1)
 
     # Create tabs
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(
-        ["Business Understanding", "AI Canvas", "Roadmap", "Team members", "Conclusion"])
+    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
+        ["Team Members","Business Understanding", "DS&AI tools to meet Business Case", "Business metrics to DS/AI metrics", "AI Canvas", "Roadmap"])
 
     with tab1:
+        st.header("Our team")
+        image4 = Image.open(
+            "app/greenscape/Streamlit/Data/Our_team.png")
+        st.image(image4, width=800)
+
+    with tab2:
         st.header("Business Understanding")
         st.write("By analyzing the factors that have an impact on the Green Index score, the client can allocate resources efficiently and effectively to address the most pressing environmental challenges. By tracking changes in each factor over time, Breda can set realistic goals and monitor its progress toward becoming more sustainable in a completely data-driven manner. We will analyze the correlation between Quality of life, Public Safety, Segregation, and Environmental statistics with the green index score to determine if we are able to predict a green index score using regression task for each neighborhood in Breda.")
         st.subheader("Research questions:")
         st.write("1. What are the factors that contribute to the green index score?")
         st.write("2. Based on these factors, can we predict a green index score?")
+        
+        # Define the metrics
+        metrics = [
+            {
+                "Metric": "Green Score Index",
+                "Description": "Quantifies the percentage of greenery in Breda based on 3D photos from Google Street View",
+                "Elaboration": "Utilizes computer vision algorithms to analyze images and calculate the green score index",
+            },
+            {
+                "Metric": "Livability Score",
+                "Description": "Evaluates the quality of life in different neighborhoods of Breda",
+                "Elaboration": "Considers factors like access to green spaces, air quality, safety, and transportation",
+            },
+            {
+                "Metric": "Total Amount of Houses",
+                "Description": "Refers to the count of residential properties in Breda",
+                "Elaboration": "Provides insights into population density and distribution across the city",
+            },
+            {
+                "Metric": "Registered Nuisance",
+                "Description": "Refers to the number of complaints or reports filed by residents regarding environmental nuisances",
+                "Elaboration": "Helps identify areas where improvements in greenery can mitigate environmental concerns",
+            },
+            {
+                "Metric": "Population per Neighborhood",
+                "Description": "Refers to the average number of residents in specific areas or districts of Breda",
+                "Elaboration": "Helps identify areas where additional green spaces may be necessary",
+            },
+            {
+                "Metric": "Average Income",
+                "Description": "Refers to the mean income level of residents in Breda",
+                "Elaboration": "Provides insights into the socioeconomic factors influencing green space accessibility",
+            },
+            {
+                "Metric": "Job Growth",
+                "Description": "Refers to the rate at which new employment opportunities are created in Breda",
+                "Elaboration": "Assesses the impact of green initiatives on the local economy",
+            },
+            {
+                "Metric": "Electricity Consumption",
+                "Description": "Measures the amount of electricity used by households and businesses in Breda",
+                "Elaboration": "Highlights areas for energy efficiency improvements and renewable energy adoption",
+            },
+            {
+                "Metric": "Gas Consumption",
+                "Description": "Measures the amount of natural gas used by households and businesses in Breda",
+                "Elaboration": "Identifies areas for green building practices and energy conservation measures",
+            },
+            {
+                "Metric": "CO2 Emissions",
+                "Description": "Refers to the amount of carbon dioxide released into the atmosphere in Breda",
+                "Elaboration": "Monitors progress in reducing greenhouse gas emissions and promoting sustainability",
+            },
+        ]
+    with tab3:
+        # Display the metrics in a Streamlit app
+        st.title("Business Metrics for Greenery Improvement in Breda")
 
-    with tab2:
+        st.write("Below are the metrics used to measure the success of the greenery improvement project:")
+
+        for metric in metrics:
+            st.subheader(metric["Metric"])
+            st.write("**Description:**", metric["Description"])
+            st.write("**Elaboration:**", metric["Elaboration"])
+            st.write("---")
+    with tab4:
+        # Define the tools and resources
+        tools_resources = [
+            "Data Visualization Tools: Visualization tools like Tableau, Power BI, or Matplotlib can be used to create interactive and informative visualizations that showcase the impact of green initiatives on various metrics. For example, in case of working with CSV files, we will use python libraries such as pandas and numpy, to preprocess data. Later on, to visualise it, libraries such as plotly, matplotlib or folium can be used for an interactive way of engaging with data. These tools facilitate effective communication of data-driven insights to stakeholders and decision-makers.",
+            "Machine Learning and AI Algorithms: Machine learning and AI algorithms can be utilized for tasks such as data analysis. For example, for Machine Learning task, library such as scikit-learn will be crucial for the project, since it enables us to create a model. Regression tasks such as Linear Regression, Random Forest regressor are necessary, because based on their evaluation scores we can choose the best performing model.",
+            "Open Data Sources: Leveraging open data sources, such as Breda in Cijfers website, can provide valuable information on factors like population per neighborhood, amount of houses in Breda etc. These sources can aid in understanding the existing environmental conditions and identifying opportunities for improvement.",
+            "Collaborative Platforms: Collaborative platforms like GitHub or GitLab can facilitate team collaboration and version control of code and data. They enable data scientists and AI practitioners to work together efficiently and ensure reproducibility of analyses.",
+            "CLient Engagement: Engagement with Data Science Team can lead to improvement on understand the case of why this project is done. It helps identifying, what Municipality of Breda really wants, to improve the whole city of Breda."
+        ]
+
+        # Display the tools and resources in a Streamlit app
+        st.title("Tools and Resources for Meeting Business Case")
+
+        st.write("Below are the tools and resources that can be utilized to meet the business requirements of improving greenery in Breda:")
+
+        for item in tools_resources:
+            st.write("- " + item)
+
+    with tab5:
         st.header("AI Canvas")
         image2 = Image.open("app/greenscape/Streamlit/Data/AI_Canvas.png")
         st.image(image2)
 
-    with tab3:
+    with tab6:
         st.header("Project's Roadmap")
         image3 = Image.open("app/greenscape/Streamlit/Data/Roadmap_Image.png")
         st.image(image3)
@@ -119,22 +207,6 @@ def main():
         st.markdown(f"5. {deployment_steps[4]}")
         st.markdown(f"6. {deployment_steps[5]}")
 
-    with tab4:
-        st.header("Our team")
-        image4 = Image.open(
-            "app/greenscape/Streamlit/Data/Our_team.png")
-        st.image(image4, width=800)
-
-    with tab5:
-        st.header("Conclusion")
-        st.divider()
-        st.write('The model is able to predict a change in green score according to a change of value in one of the selected criteria. However, we would like to highlight the central pain-point with any project of this nature.')
-        st.divider()
-        st.subheader('Correlation does not equal Causation.')
-        st.divider()
-        st.write('Even though the algorithm predicts a change in value if average income value increases, it does not mean that the change in green score is a direct consequence of a higher average salary.')
-        st.write('We realize this is due to the fact that the green score is calculated based on the total amount of green area visible in a geographic region.')
-        st.write('Despite this, we believe that the factors presented in the algorithm go a long way in enabling more green areas being added to certain neighborhoods.')
 
 
 if __name__ == "__main__":
