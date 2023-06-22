@@ -6,13 +6,19 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 st.set_page_config(page_title="Exploritory Data Analysis", layout="wide")
-st.title("Exploritory Data Analysis")
-
-streamlit_path = "/EDA/Simona/scripts/dashboard.py"
-file_path = "EDA/Simona/scripts/Preprocessed_Dataset.csv"
+st.title("Exploratory Data Analysis")
 
 
 def read_file_from_relative_path(file_path):
+    """
+    Read the file content from the given relative file path.
+
+    Parameters:
+        file_path (str): The relative path of the file to read.
+
+    Returns:
+        str: The content of the file.
+    """
     try:
         with open(file_path, "r") as file:
             content = file.read()
@@ -24,14 +30,16 @@ def read_file_from_relative_path(file_path):
         print(f"Error reading file '{file_path}'.")
         return None
 
-
-file_content = read_file_from_relative_path(file_path)
-if file_content:
-    df_read = pd.read_csv(file_path, index_col=0)
-    print("Sucessfully read the .csv!")
-
-
 def preprocess(df):
+    """
+    Preprocess the DataFrame by performing necessary transformations and aggregations.
+
+    Parameters:
+        df (pd.DataFrame): The input DataFrame.
+
+    Returns:
+        pd.DataFrame: The preprocessed DataFrame.
+    """
     df["Year"] = df["Year"].astype(str)
     df["date"] = pd.to_datetime(df["date"])
     df["months"] = df["date"].dt.month_name(locale="English")
@@ -41,7 +49,30 @@ def preprocess(df):
     return df
 
 
+streamlit_path = "EDA/Simona/scripts/dashboard.py"
+file_path = "C:/Users/tatar/OneDrive - BUas/Desktop/Buas/GreenScape/EDA/Simona/scripts/Preprocessed_Dataset.csv"
+
+file_content = read_file_from_relative_path(file_path)
+if file_content:
+    df_read = pd.read_csv(file_path, index_col=0)
+    df_sorted = preprocess(df_read)
+else:
+    raise ValueError(f"Failed to read file '{file_path}'.")
+
+
 def scatterplot(df, x, y, title):
+    """
+    Generate a scatter plot.
+
+    Parameters:
+        df (pd.DataFrame): The DataFrame to use for plotting.
+        x (str): The column name for the x-axis.
+        y (str): The column name for the y-axis.
+        title (str): The title of the plot.
+
+    Returns:
+        plotly.graph_objs._figure.Figure: The generated scatter plot.
+    """
     fig = px.scatter(
         df,
         x=x,
@@ -60,6 +91,16 @@ def scatterplot(df, x, y, title):
 
 
 def barplot(df, y):
+    """
+    Generate bar plots.
+
+    Parameters:
+        df (pd.DataFrame): The DataFrame to use for plotting.
+        y (str): The column name for the y-axis.
+
+    Returns:
+        tuple: A tuple containing two bar plots on monthly and yearly levels, respectively.
+    """
     fig = px.bar(df, x="date", y=y, color="months", title="Barchart on Monthly level")
     fig1 = px.bar(df, x="Year", y=y, color="Year", title="Barchart on Yearly level")
 
@@ -70,6 +111,16 @@ def barplot(df, y):
 
 
 def histogram(df, y):
+    """
+    Generate a histogram plot.
+
+    Parameters:
+        df (pd.DataFrame): The DataFrame to use for plotting.
+        y (str): The column name for the y-axis.
+
+    Returns:
+        plotly.graph_objs._figure.Figure: The generated histogram plot.
+    """
     fig = px.histogram(
         df,
         x="date",
@@ -91,6 +142,15 @@ def histogram(df, y):
 
 
 def headmap(df):
+    """
+    Generate a heatmap plot.
+
+    Parameters:
+        df (pd.DataFrame): The DataFrame to use for plotting.
+
+    Returns:
+        plotly.graph_objs._figure.Figure: The generated heatmap plot.
+    """
     df_groupby = (
         df.groupby(by="regions")[
             [
@@ -109,6 +169,16 @@ def headmap(df):
 
 
 def linechart(df, y):
+    """
+    Generate a line chart plot.
+
+    Parameters:
+        df (pd.DataFrame): The DataFrame to use for plotting.
+        y (str): The column name for the y-axis.
+
+    Returns:
+        plotly.graph_objs._figure.Figure: The generated line chart plot.
+    """
     fig = px.line(df, x="Year", y=y)
     fig.update_traces(textposition="bottom right")
 
@@ -116,6 +186,16 @@ def linechart(df, y):
 
 
 def pie_charts(df, regions):
+    """
+    Generate pie charts.
+
+    Parameters:
+        df (pd.DataFrame): The DataFrame to use for plotting.
+        regions (str): The column name for the regions.
+
+    Returns:
+        plotly.graph_objs._figure.Figure: The generated pie charts.
+    """
     fig = make_subplots(
         rows=2,
         cols=2,
@@ -161,7 +241,6 @@ def pie_charts(df, regions):
     return fig
 
 
-df_sorted = preprocess(df_read)
 
 
 scatterplot_livability = scatterplot(
@@ -234,6 +313,15 @@ df_groupby_regions = (
 
 
 def reset_index(df):
+    """
+    Reset the index of the DataFrame.
+
+    Parameters:
+        df (pd.DataFrame): The input DataFrame.
+
+    Returns:
+        pd.DataFrame: The DataFrame with reset index.
+    """
     df_reset_index = df.reset_index()
     return df_reset_index
 

@@ -1,3 +1,19 @@
+"""
+Machine Learning Page
+
+This script creates a page in streamlit with multiple tabs detailing the Machine Learning aspect of the dashboard,
+including the embedded algorithm.
+
+Usage:
+    - Runs automatically after the 1INTRODUCTION page is initiated
+
+Dependencies:
+    - streamlit
+    - pandas
+    - sklearn
+
+"""
+
 import streamlit as st
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
