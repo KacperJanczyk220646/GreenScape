@@ -55,7 +55,10 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#module-pages.5ML">pages.5ML module</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#pages.5ML.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pages.5ML.create_app"><code class="docutils literal notranslate"><span class="pre">create_app()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pages.5ML.load_data"><code class="docutils literal notranslate"><span class="pre">load_data()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pages.5ML.predict_score"><code class="docutils literal notranslate"><span class="pre">predict_score()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pages.5ML.train_model"><code class="docutils literal notranslate"><span class="pre">train_model()</span></code></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#module-pages">Module contents</a></li>
@@ -150,9 +153,46 @@ including the embedded algorithm.</p>
 </dd>
 </dl>
 <dl class="py function">
-<dt class="sig sig-object py" id="pages.5ML.main">
-<span class="sig-prename descclassname"><span class="pre">pages.5ML.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pages.5ML.main" title="Permalink to this definition"></a></dt>
-<dd></dd></dl>
+<dt class="sig sig-object py" id="pages.5ML.create_app">
+<span class="sig-prename descclassname"><span class="pre">pages.5ML.</span></span><span class="sig-name descname"><span class="pre">create_app</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pages.5ML.create_app" title="Permalink to this definition"></a></dt>
+<dd><p>Create a Streamlit app for green score prediction.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="pages.5ML.load_data">
+<span class="sig-prename descclassname"><span class="pre">pages.5ML.</span></span><span class="sig-name descname"><span class="pre">load_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pages.5ML.load_data" title="Permalink to this definition"></a></dt>
+<dd><p>Load the dataframe from a CSV file.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>pd.DataFrame: The loaded dataframe.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="pages.5ML.predict_score">
+<span class="sig-prename descclassname"><span class="pre">pages.5ML.</span></span><span class="sig-name descname"><span class="pre">predict_score</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">new_data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pages.5ML.predict_score" title="Permalink to this definition"></a></dt>
+<dd><p>Predict the green score using the trained model and new data.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>model (RandomForestRegressor): The trained Random Forest model.
+new_data (pd.DataFrame): The new data for prediction.</p>
+</dd>
+<dt>Returns:</dt><dd><p>float: The predicted green score.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="pages.5ML.train_model">
+<span class="sig-prename descclassname"><span class="pre">pages.5ML.</span></span><span class="sig-name descname"><span class="pre">train_model</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">X_train</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y_train</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pages.5ML.train_model" title="Permalink to this definition"></a></dt>
+<dd><p>Train the Random Forest model using the provided training data.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>X_train (pd.DataFrame): The features of the training data.
+y_train (pd.Series): The target variable of the training data.</p>
+</dd>
+<dt>Returns:</dt><dd><p>RandomForestRegressor: The trained Random Forest model.</p>
+</dd>
+</dl>
+</dd></dl>
 
 </section>
 <section id="module-pages">
