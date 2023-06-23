@@ -45,7 +45,7 @@ We were able to set up Trello workspace board for this Sprint, and set up more o
 - Document the evaluation results and recommendations for future improvements.
 
 ***Summary:***
-
+*Week 7 was mainly focused on evaluation phase, following the CRISP-DM cycle. From the beginning of the week we had clear vision of what outcomes we want to meet. I have set our goals in the Trello workspace starting with those we were not able to achieve last week - ethics and legal checklist. Since we had conducted our EDAs and machine learning analysis from the previous weeks, we were ready to implement them in Streamlit which is the main objective. I have assigned each member of the team group to work on a specific section of the dashboard which ideally we will combine by the end of this week. In terms of ethics, I can confidently say we have closed this page. As a SCRUM master, I was able to fit in this role and I feel satisfied with the outcomes we were able to achieve, however when it comes to my part, I had some remote issues implementing data visualization in Streamlit which hopefully I will be able to overcome.*
 
 
 ### ***Week 8: Deployment***
@@ -59,5 +59,5 @@ We were able to set up Trello workspace board for this Sprint, and set up more o
 
 ***Summary:***
 
-
+*The final week of the project revolved around the deployment phase. Firstly, I assigned story cards to everyone and split up the remaining tasks. Generating docstrings, creating unit tests, outlining the roadmap in more depth, as well as a readme file were all distributed among the team. We finalized the machine learning model based on performance and inclusivity, and integrated it into a streamlit dashboard. The rest of the dashboard was also finalized, and ready for documentation. Last minute updates of the ethical and legal assessment were implemented accordingly, and dashboard scripts were linted, reformatted, and documented with the use of industry-standard tools like flake8, black and sphinx. The final dashboard was then presented to the Product Owner, peers, and mentors. The feedback received was mostly positive, but we were alerted of some improvements which would need to be made to the model before Public deployment. However, since public deployment is not part of the plan, we believe we achieved all we set out for in the first week. We are all pleased with the final product and feel like we've made leaps and bounds since the start of the block, both in team-work, individual expertise, and communication.*
 
