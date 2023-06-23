@@ -49,6 +49,9 @@
 - DS/AI Metric: Refers to the amount of carbon dioxide released into the atmosphere in Breda
 - Business metric: Monitors progress in reducing greenhouse gas emissions and promoting sustainability
 
+### **Success criteria**
+For this project, our success criteria is to develop a tool, which is based on Machine Learning Algorithm, to predict green score on given values of selected metrics.
+
 ## **5. Tools and Resources for Improving Greenery in Breda:**
 
 1. **Data Visualization Tools:** Visualization tools like Tableau, Power BI, or Matplotlib can be used to create interactive and informative visualizations that showcase the impact of green initiatives on various metrics. Python libraries such as Pandas and NumPy can be used for data preprocessing, while libraries like Plotly, Matplotlib, or Folium can be utilized for interactive data visualization.
